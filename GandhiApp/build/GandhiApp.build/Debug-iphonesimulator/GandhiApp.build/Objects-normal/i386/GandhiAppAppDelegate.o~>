@@ -1,0 +1,2 @@
+In file included from /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m:10:
+/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.h:13: error: expected specifier-qualifier-list before 'DetailViewController'

@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* GandhiAppAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 444}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 465}";
+		};
+	};
+	1D3623250D0F684500981E51 /* GandhiAppAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1209}}";
+			sepNavSelRange = "{206, 0}";
+			sepNavVisRange = "{0, 821}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* GandhiApp */ = {
+		activeExec = 0;
+		executables = (
+			276A68B0148A9FA400E34D23 /* GandhiApp */,
+		);
+	};
+	271A322F1490FDD4003FC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 11";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 394;
+		vrLoc = 0;
+	};
+	271A32301490FDD4003FC19D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2751D457148AD64600EC4AD0 /* lech@2x.png */;
+	};
+	271A32311490FDD4003FC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2751D471148AEC1C00EC4AD0 /* SearchViewController.h */;
+		name = "SearchViewController.h: 9";
+		rLen = 0;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 377;
+		vrLoc = 0;
+	};
+	271A32321490FDD4003FC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2751D472148AEC1C00EC4AD0 /* SearchViewController.m */;
+		name = "SearchViewController.m: 14";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 777;
+		vrLoc = 0;
+	};
+	27402A93149130F80080EDC6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 61";
+		rLen = 0;
+		rLoc = 2566;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 0;
+	};
+	2751D445148AD5B000EC4AD0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27EB74AF148ACC9700CF05D4 /* politicalfreedom.png */;
+	};
+	2751D446148AD5B000EC4AD0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27EB749D148AB7B900CF05D4 /* civillaw.png */;
+	};
+	2751D447148AD5B000EC4AD0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27EB74AB148ACC9700CF05D4 /* economicfreedom.png */;
+	};
+	2751D471148AEC1C00EC4AD0 /* SearchViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 400}}";
+			sepNavSelRange = "{165, 0}";
+			sepNavVisRange = "{0, 377}";
+		};
+	};
+	2751D472148AEC1C00EC4AD0 /* SearchViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 819}}";
+			sepNavSelRange = "{260, 0}";
+			sepNavVisRange = "{0, 777}";
+		};
+	};
+	2751D493148AF2EE00EC4AD0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27EB74B1148ACC9700CF05D4 /* socialfreedom.png */;
+	};
+	2751D4A5148AF32B00EC4AD0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* GandhiAppAppDelegate.h */;
+		name = "GandhiAppAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 465;
+		vrLoc = 0;
+	};
+	2751D4C0148AF3C500EC4AD0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* GandhiAppAppDelegate.m */;
+		name = "GandhiAppAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 0;
+	};
+	276A68B0148A9FA400E34D23 /* GandhiApp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GandhiApp;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	276A68C5148A9FA600E34D23 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	276A68C6148A9FA600E34D23 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2773426414912F3A007342EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 61";
+		rLen = 0;
+		rLoc = 2566;
+		rType = 0;
+		vrLen = 1215;
+		vrLoc = 4178;
+	};
+	27EB74BF148ACCC600CF05D4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27EB749E148AB7B900CF05D4 /* indiaconstitution.png */;
+	};
+	27EB74C0148ACCC600CF05D4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27EB7499148AB7A100CF05D4 /* multiculturalism.png */;
+	};
+	27EB74C7148ACFD200CF05D4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27EB74AA148ACC9700CF05D4 /* documentaries.png */;
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 400}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{0, 394}";
+			sepNavWindowFrame = "{{19, 0}, {638, 778}}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 3406}}";
+			sepNavSelRange = "{2566, 0}";
+			sepNavVisRange = "{0, 786}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 276A68B0148A9FA400E34D23 /* GandhiApp */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GandhiApp */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* GandhiApp */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 276A68C6148A9FA600E34D23 /* Code sense */;
+		executables = (
+			276A68B0148A9FA400E34D23 /* GandhiApp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					829,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 345059243;
+			PBXWorkspaceStateSaveDate = 345059243;
+		};
+		perUserProjectItems = {
+			271A322F1490FDD4003FC19D /* PBXTextBookmark */ = 271A322F1490FDD4003FC19D /* PBXTextBookmark */;
+			271A32301490FDD4003FC19D /* PBXBookmark */ = 271A32301490FDD4003FC19D /* PBXBookmark */;
+			271A32311490FDD4003FC19D /* PBXTextBookmark */ = 271A32311490FDD4003FC19D /* PBXTextBookmark */;
+			271A32321490FDD4003FC19D /* PBXTextBookmark */ = 271A32321490FDD4003FC19D /* PBXTextBookmark */;
+			27402A93149130F80080EDC6 /* PBXTextBookmark */ = 27402A93149130F80080EDC6 /* PBXTextBookmark */;
+			2751D445148AD5B000EC4AD0 /* PBXBookmark */ = 2751D445148AD5B000EC4AD0 /* PBXBookmark */;
+			2751D446148AD5B000EC4AD0 /* PBXBookmark */ = 2751D446148AD5B000EC4AD0 /* PBXBookmark */;
+			2751D447148AD5B000EC4AD0 /* PBXBookmark */ = 2751D447148AD5B000EC4AD0 /* PBXBookmark */;
+			2751D493148AF2EE00EC4AD0 /* PBXBookmark */ = 2751D493148AF2EE00EC4AD0 /* PBXBookmark */;
+			2751D4A5148AF32B00EC4AD0 /* PBXTextBookmark */ = 2751D4A5148AF32B00EC4AD0 /* PBXTextBookmark */;
+			2751D4C0148AF3C500EC4AD0 /* PBXTextBookmark */ = 2751D4C0148AF3C500EC4AD0 /* PBXTextBookmark */;
+			2773426414912F3A007342EE /* PBXTextBookmark */ = 2773426414912F3A007342EE /* PBXTextBookmark */;
+			27EB74BF148ACCC600CF05D4 /* PBXBookmark */ = 27EB74BF148ACCC600CF05D4 /* PBXBookmark */;
+			27EB74C0148ACCC600CF05D4 /* PBXBookmark */ = 27EB74C0148ACCC600CF05D4 /* PBXBookmark */;
+			27EB74C7148ACFD200CF05D4 /* PBXBookmark */ = 27EB74C7148ACFD200CF05D4 /* PBXBookmark */;
+		};
+		sourceControlManager = 276A68C5148A9FA600E34D23 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

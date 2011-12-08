@@ -1,0 +1,21 @@
+//
+//  GandhiAppAppDelegate.h
+//  GandhiApp
+//
+//  Created by Kyle on 12/3/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface GandhiAppAppDelegate : NSObject <UIApplicationDelegate> {
+    
+    UIWindow *window;
+    UINavigationController *navigationController;
+}
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+
+@end
+
