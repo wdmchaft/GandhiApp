@@ -1,7 +1,7 @@
 TGandhiApp
 v7
 r0
-t345059265.982956
+t345337034.806186
 cCheck dependencies
 cCpResource build/Debug-iphoneos/GandhiApp.app/ResourceRules.plist /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Info.plist GandhiApp-Info.plist
@@ -10,17 +10,6 @@ cCompileXIB /Users/Kyle/AppCanny/GandhiApp/GandhiApp/RootViewController.xib
 cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default.png Default.png
 cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default@2x.png Default@2x.png
 cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default~ipad.png Default~ipad.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc.png Icon-doc.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc@2x.png Icon-doc@2x.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc~ipad.png Icon-doc~ipad.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc320~ipad.png Icon-doc320~ipad.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings.png Icon-settings.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings@2x.png Icon-settings@2x.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-spot~ipad.png Icon-spot~ipad.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon.png Icon.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon@2x.png Icon@2x.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon~ipad.png Icon~ipad.png
-cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/iTunesArtwork.png iTunesArtwork.png
 cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/lech.png lech.png
 cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/mandela.png mandela.png
 cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/mlk.png mlk.png
@@ -57,6 +46,16 @@ cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/Gandh
 cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/biographies@2x.png biographies@2x.png
 cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/occupy.png occupy.png
 cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/occupy@2x.png occupy@2x.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc.png Icon-doc.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc@2x.png Icon-doc@2x.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc~ipad.png Icon-doc~ipad.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc320~ipad.png Icon-doc320~ipad.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings.png Icon-settings.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings@2x.png Icon-settings@2x.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-spot~ipad.png Icon-spot~ipad.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon.png Icon.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon@2x.png Icon@2x.png
+cCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon~ipad.png Icon~ipad.png
 cProcessPCH /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-ebwkxkqttviskgdbtqqrdtmhqjay/GandhiApp_Prefix.pch.gch GandhiApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-flyjniaqdtfwekbnvhhtqbcnjpbw/GandhiApp_Prefix.pch.gch GandhiApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/main.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
@@ -64,9 +63,9 @@ cCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/ar
 cCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/RootViewController.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/SearchViewController.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/SearchViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/main.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp normal armv6
 cCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiAppAppDelegate.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/RootViewController.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp normal armv6
 cCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/SearchViewController.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/SearchViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp normal armv7
 cCreateUniversalBinary /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp normal "armv6 armv7"
@@ -141,9 +140,9 @@ s394
 i<UIKit/UIKit.h>
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m
-c000000004EE0C64E0000000000002780
-t1323353678
-s10112
+c000000004EE535450000000000002746
+t1323644229
+s10054
 i"RootViewController.h"
 i"SearchViewController.h"
 
@@ -165,19 +164,19 @@ t1323353297
 s24179
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png
-c000000004ED971EE0000000000033EAC
-t1322873326
-s212652
+c000000004EE223270000000000017AD3
+t1323442983
+s96979
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png
-c000000004ED9719E00000000000AC934
-t1322873246
-s706868
+c000000004EE222E40000000000041D85
+t1323442916
+s269701
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png
-c000000004ED9758200000000000CF860
-t1322874242
-s850016
+c000000004EE21F92000000000004D7A2
+t1323442066
+s317346
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/GandhiApp_Prefix.pch
 c000000004EDA68240000000000000144
@@ -188,54 +187,54 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png
-c000000004ED97AAB00000000000007BD
-t1322875563
-s1981
+c000000004EE228BB00000000000007CB
+t1323444411
+s1995
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png
-c000000004ED97BFC000000000002498A
-t1322875900
-s149898
+c000000004EE225A1000000000001AF59
+t1323443617
+s110425
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png
-c000000004ED97B3E0000000000001906
-t1322875710
-s6406
+c000000004EE2288F00000000000015F0
+t1323444367
+s5616
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png
-c000000004ED97BBA00000000000024FE
-t1322875834
-s9470
+c000000004EE227D80000000000001EFA
+t1323444184
+s7930
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png
-c000000004ED9743F000000000000097D
-t1322873919
-s2429
+c000000004EE2250900000000000009E9
+t1323443465
+s2537
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png
-c000000004ED975BC0000000000001F48
-t1322874300
-s8008
+c000000004EE224C60000000000001B91
+t1323443398
+s7057
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png
-c000000004ED974E100000000000017F5
-t1322874081
-s6133
+c000000004EE2248600000000000016C9
+t1323443334
+s5833
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png
-c000000004ED973230000000000001EB9
-t1322873635
-s7865
+c000000004EE109BA0000000000001A00
+t1323370938
+s6656
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png
-c000000004ED976180000000000006137
-t1322874392
-s24887
+c000000004EE109670000000000004C5E
+t1323370855
+s19550
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png
-c000000004ED974960000000000002CE6
-t1322874006
-s11494
+c000000004EE1090800000000000024E7
+t1323370760
+s9447
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/MainWindow.xib
 c000000004EE0C5C90000000000006512
@@ -268,68 +267,68 @@ t1322949619
 s67359
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app
-t1323366465
+t1323644234
 s2074
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app.dSYM
-t1323366465
+t1323644234
 s102
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default.png
-t1323366455
-s221854
+t1323541636
+s105199
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default@2x.png
-t1323366458
-s751054
+t1323541637
+s301203
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default~ipad.png
-t1323366460
-s907488
+t1323541637
+s358982
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp
-t1323366465
-s66440
+t1323644233
+s76880
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc.png
-t1323366458
-s2159
+t1323541637
+s2146
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc320~ipad.png
-t1323366458
-s159587
+t1323541637
+s121565
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc@2x.png
-t1323366458
-s6856
+t1323541637
+s6202
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc~ipad.png
-t1323366458
-s10338
+t1323541637
+s8707
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings.png
-t1323366458
-s2656
+t1323541637
+s2679
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings@2x.png
-t1323366458
-s8717
+t1323541637
+s7651
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-spot~ipad.png
-t1323366458
-s6584
+t1323541637
+s6149
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon.png
-t1323366458
-s8324
+t1323541637
+s7318
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon@2x.png
-t1323366458
-s26537
+t1323541637
+s21014
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon~ipad.png
-t1323366458
-s12180
+t1323541637
+s10237
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Info.plist
 t1323366454
@@ -508,8 +507,8 @@ t1323366465
 s629
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp
-t1323366465
-s29400
+t1323644233
+s29584
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp.LinkFileList
 c000000004EE0F8360000000000000216
@@ -521,8 +520,8 @@ t1323366463
 s52564
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/RootViewController.o
-t1323366464
-s59920
+t1323644231
+s60368
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/SearchViewController.o
 t1323366464
@@ -533,8 +532,8 @@ t1323366463
 s6480
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp
-t1323366465
-s29576
+t1323644233
+s29760
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp.LinkFileList
 c000000004EE0F8360000000000000216
@@ -546,8 +545,8 @@ t1323366464
 s52452
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/RootViewController.o
-t1323366464
-s59348
+t1323644232
+s59792
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/SearchViewController.o
 t1323366464
@@ -743,15 +742,15 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies345059253#345059254#0(0"0(0#1#0"8389723915927121920#0"0#
+lSLF07#2@18"Check dependencies345337031#345337031#0(0"0(0#1#0"8389723915927121920#0"0#
 
 CCodeSign /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app
-s345059265.571184
-e345059265.982898
+s345337034.058407
+e345337034.806051
 r1
 xCodeSign
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app
-lSLF07#2@43"CodeSign build/Debug-iphoneos/GandhiApp.app345059265#345059265#0(0"0(0#0#75"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app8606224544#687"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kyle Heneman (5MDNR33WV8)" --resource-rules=/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/ResourceRules.plist --entitlements /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp.xcent /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app0#
+lSLF07#2@43"CodeSign build/Debug-iphoneos/GandhiApp.app345337034#345337034#0(0"0(0#0#75"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app8607315648#687"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kyle Heneman (5MDNR33WV8)" --resource-rules=/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/ResourceRules.plist --entitlements /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp.xcent /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app0#
 
 CCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiAppAppDelegate.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s345059263.855959
@@ -767,8 +766,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m345059263#345059263#0(0"0(0#0#71"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m8604787456#1854"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-generated-files.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-own-target-headers.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-all-target-headers.hmap -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-project-headers.hmap -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/include -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources/armv6 -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources -include /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-ebwkxkqttviskgdbtqqrdtmhqjay/GandhiApp_Prefix.pch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiAppAppDelegate.o0#
 
 CCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/RootViewController.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s345059263.958982
-e345059264.105227
+s345337031.385138
+e345337031.609334
 r1
 xCompileC
 xbuild/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/RootViewController.o
@@ -777,7 +776,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m345059263#345059264#0(0"0(0#0#69"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m8604563520#1850"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-generated-files.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-own-target-headers.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-all-target-headers.hmap -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-project-headers.hmap -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/include -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources/armv6 -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources -include /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-ebwkxkqttviskgdbtqqrdtmhqjay/GandhiApp_Prefix.pch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/RootViewController.o0#
+lSLF07#2@77"Compile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m345337031#345337031#0(0"0(0#0#69"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m7939128661845044224#1850"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-generated-files.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-own-target-headers.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-all-target-headers.hmap -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-project-headers.hmap -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/include -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources/armv6 -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources -include /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-ebwkxkqttviskgdbtqqrdtmhqjay/GandhiApp_Prefix.pch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/RootViewController.o0#
 
 CCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/SearchViewController.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/SearchViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s345059263.978087
@@ -819,8 +818,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m345059264#345059264#0(0"0(0#0#71"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m8601644768#1854"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-generated-files.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-own-target-headers.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-all-target-headers.hmap -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-project-headers.hmap -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/include -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources/armv7 -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources -include /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-flyjniaqdtfwekbnvhhtqbcnjpbw/GandhiApp_Prefix.pch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiAppAppDelegate.o0#
 
 CCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/RootViewController.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s345059264.209547
-e345059264.331872
+s345337031.458002
+e345337032.938121
 r1
 xCompileC
 xbuild/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/RootViewController.o
@@ -829,7 +828,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m345059264#345059264#0(0"0(0#0#69"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m8606517344#1850"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-generated-files.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-own-target-headers.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-all-target-headers.hmap -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-project-headers.hmap -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/include -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources/armv7 -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources -include /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-flyjniaqdtfwekbnvhhtqbcnjpbw/GandhiApp_Prefix.pch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/RootViewController.o0#
+lSLF07#2@77"Compile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m345337031#345337032#0(0"0(0#0#69"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m8617799424#1850"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-generated-files.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-own-target-headers.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-all-target-headers.hmap -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp-project-headers.hmap -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/include -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources/armv7 -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/DerivedSources -include /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-flyjniaqdtfwekbnvhhtqbcnjpbw/GandhiApp_Prefix.pch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/RootViewController.m -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/RootViewController.o0#
 
 CCompileC build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/SearchViewController.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/SearchViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s345059264.332030
@@ -882,121 +881,121 @@ x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/RootViewController.xib
 lSLF07#2@33"CompileXIB RootViewController.xib345059254#345059255#0(0"0(0#0#63"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/RootViewController.xib8606056192#594"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/RootViewController.nib /Users/Kyle/AppCanny/GandhiApp/GandhiApp/RootViewController.xib --sdk /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default.png Default.png
-s345059255.006979
-e345059255.971966
+s345234435.627117
+e345234436.194530
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default.png
 xDefault.png
-lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Default.png Default.png345059255#345059255#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png8604185472#491"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default.png0#
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Default.png Default.png345234435#345234436#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png27303377686691956#491"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default@2x.png Default@2x.png
-s345059255.128977
-e345059258.170337
+s345234435.630801
+e345234437.061902
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default@2x.png
 xDefault@2x.png
-lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Default@2x.png Default@2x.png345059255#345059258#0(0"0(0#0#55"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png8603047456#497"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default@2x.png0#
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Default@2x.png Default@2x.png345234435#345234437#0(0"0(0#0#55"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png8611015424#497"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default@2x.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default~ipad.png Default~ipad.png
-s345059255.972064
-e345059260.133648
+s345234436.194644
+e345234437.601093
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default~ipad.png
 xDefault~ipad.png
-lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Default~ipad.png Default~ipad.png345059255#345059260#0(0"0(0#0#57"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png8605970848#501"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default~ipad.png0#
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Default~ipad.png Default~ipad.png345234436#345234437#0(0"0(0#0#57"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png8611410400#501"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Default~ipad.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc.png Icon-doc.png
-s345059258.170550
-e345059258.196094
+s345234437.064167
+e345234437.090968
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc.png
 xIcon-doc.png
-lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-doc.png Icon-doc.png345059258#345059258#0(0"0(0#0#53"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png8605970656#493"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc.png0#
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-doc.png Icon-doc.png345234437#345234437#0(0"0(0#0#53"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png8611877824#493"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc320~ipad.png Icon-doc320~ipad.png
-s345059258.254938
-e345059258.649224
+s345234437.170956
+e345234437.493868
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc320~ipad.png
 xIcon-doc320~ipad.png
-lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-doc320~ipad.png Icon-doc320~ipad.png345059258#345059258#0(0"0(0#0#61"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png8606283744#509"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc320~ipad.png0#
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-doc320~ipad.png Icon-doc320~ipad.png345234437#345234437#0(0"0(0#0#61"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png8610861952#509"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc320~ipad.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc@2x.png Icon-doc@2x.png
-s345059258.196196
-e345059258.225112
+s345234437.091073
+e345234437.130230
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc@2x.png
 xIcon-doc@2x.png
-lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-doc@2x.png Icon-doc@2x.png345059258#345059258#0(0"0(0#0#56"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png8602145952#499"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc@2x.png0#
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-doc@2x.png Icon-doc@2x.png345234437#345234437#0(0"0(0#0#56"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png8611620288#499"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc@2x.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc~ipad.png Icon-doc~ipad.png
-s345059258.225223
-e345059258.254832
+s345234437.130442
+e345234437.170848
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc~ipad.png
 xIcon-doc~ipad.png
-lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-doc~ipad.png Icon-doc~ipad.png345059258#345059258#0(0"0(0#0#58"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png8606622304#503"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc~ipad.png0#
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-doc~ipad.png Icon-doc~ipad.png345234437#345234437#0(0"0(0#0#58"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png8611223136#503"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-doc~ipad.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings.png Icon-settings.png
-s345059258.649419
-e345059258.696027
+s345234437.493989
+e345234437.538148
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings.png
 xIcon-settings.png
-lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-settings.png Icon-settings.png345059258#345059258#0(0"0(0#0#58"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png8606093312#503"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings.png0#
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-settings.png Icon-settings.png345234437#345234437#0(0"0(0#0#58"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png8610655680#503"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings@2x.png Icon-settings@2x.png
-s345059258.696122
-e345059258.853624
+s345234437.538257
+e345234437.598884
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings@2x.png
 xIcon-settings@2x.png
-lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-settings@2x.png Icon-settings@2x.png345059258#345059258#0(0"0(0#0#61"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png8605761632#509"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings@2x.png0#
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-settings@2x.png Icon-settings@2x.png345234437#345234437#0(0"0(0#0#61"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png8610523328#509"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-settings@2x.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-spot~ipad.png Icon-spot~ipad.png
-s345059258.853771
-e345059258.884320
+s345234437.599026
+e345234437.637914
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-spot~ipad.png
 xIcon-spot~ipad.png
-lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-spot~ipad.png Icon-spot~ipad.png345059258#345059258#0(0"0(0#0#59"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png8605483008#505"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-spot~ipad.png0#
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon-spot~ipad.png Icon-spot~ipad.png345234437#345234437#0(0"0(0#0#59"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png8610427520#505"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon-spot~ipad.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon.png Icon.png
-s345059258.884430
-e345059258.913152
+s345234437.601208
+e345234437.640446
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon.png
 xIcon.png
-lSLF07#2@64"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon.png Icon.png345059258#345059258#0(0"0(0#0#49"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png8605361568#485"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon.png0#
+lSLF07#2@64"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon.png Icon.png345234437#345234437#0(0"0(0#0#49"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png8610200288#485"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon@2x.png Icon@2x.png
-s345059258.913253
-e345059258.965321
+s345234437.638025
+e345234437.693409
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon@2x.png
 xIcon@2x.png
-lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon@2x.png Icon@2x.png345059258#345059258#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png8605061440#491"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon@2x.png0#
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon@2x.png Icon@2x.png345234437#345234437#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png8607665280#491"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon@2x.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon~ipad.png Icon~ipad.png
-s345059258.965450
-e345059258.997354
+s345234437.640708
+e345234437.675191
 r1
 xCopyPNGFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon~ipad.png
 xIcon~ipad.png
-lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon~ipad.png Icon~ipad.png345059258#345059258#0(0"0(0#0#54"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png8604759424#495"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon~ipad.png0#
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/GandhiApp.app/Icon~ipad.png Icon~ipad.png345234437#345234437#0(0"0(0#0#54"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png8607324672#495"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Icon~ipad.png0#
 
 CCopyPNGFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/articles.png articles.png
 s345059261.265885
@@ -1332,43 +1331,43 @@ x/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Re
 lSLF07#2@101"Copy /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist345059254#345059254#0(0"0(0#0#96"/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8101813437696656384#528"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app0#
 
 CCreateUniversalBinary /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp normal "armv6 armv7"
-s345059265.517058
-e345059265.523674
+s345337033.908746
+e345337033.957762
 r1
 xCreateUniversalBinary
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp
 xnormal
 xarmv6 armv7
-lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/GandhiApp.app/GandhiApp normal "armv6 armv7"345059265#345059265#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/armv6 armv78604741504#556"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp -output /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp0#
+lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/GandhiApp.app/GandhiApp normal "armv6 armv7"345337033#345337033#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/armv6 armv78605532736#556"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp -output /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp0#
 
 CGenerateDSYMFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app.dSYM /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp
-s345059265.523827
-e345059265.556949
+s345337033.957867
+e345337034.055338
 r1
 xGenerateDSYMFile
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app.dSYM
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp
-lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/GandhiApp.app.dSYM build/Debug-iphoneos/GandhiApp.app/GandhiApp345059265#345059265#0(0"0(0#0#85"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp8603397280#395"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/usr/bin/dsymutil /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app.dSYM0#
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/GandhiApp.app.dSYM build/Debug-iphoneos/GandhiApp.app/GandhiApp345337033#345337034#0(0"0(0#0#85"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp8618368096#395"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/usr/bin/dsymutil /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/GandhiApp -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app.dSYM0#
 
 CLd /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp normal armv6
-s345059264.105345
-e345059265.516944
+s345337031.609425
+e345337033.908316
 r1
 xLd
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp
 xnormal
 xarmv6
-lSLF07#2@129"Link /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp345059264#345059265#0(0"0(0#0#0"8603293760#909"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -filelist /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp0#
+lSLF07#2@129"Link /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp345337031#345337033#0(0"0(0#0#0"8604821920#909"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -filelist /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv6/GandhiApp0#
 
 CLd /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp normal armv7
-s345059264.404035
-e345059265.515924
+s345337032.938408
+e345337033.908669
 r1
 xLd
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp
 xnormal
 xarmv7
-lSLF07#2@129"Link /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp345059264#345059265#0(0"0(0#0#0"8605461216#909"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -filelist /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp0#
+lSLF07#2@129"Link /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp345337032#345337033#0(0"0(0#0#0"8616950016#909"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos -filelist /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/Objects-normal/armv7/GandhiApp0#
 
 CProcessInfoPlistFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app/Info.plist GandhiApp-Info.plist
 s345059254.524162
@@ -1424,10 +1423,10 @@ x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/G
 lSLF07#2@188"ProcessProductPackaging /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp.xcent345059265#345059265#0(0"0(0#0#109"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp.xcent8603294816#463"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphoneos/GandhiApp.build/GandhiApp.xcent0#
 
 CTouch /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app
-s345059265.559120
-e345059265.564375
+s345337034.055536
+e345337034.058232
 r1
 xTouch
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app
-lSLF07#2@81"Touch /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app345059265#345059265#0(0"0(0#0#0"8604011744#284"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app0#
+lSLF07#2@81"Touch /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app345337034#345337034#0(0"0(0#0#0"8616359232#284"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphoneos/GandhiApp.app0#
 

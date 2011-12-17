@@ -7,125 +7,41 @@
 //
 
 #import "RootViewController.h"
-#import "SearchViewController.h"
-
+#import "AhimsaViewController.h"
+#import "LifeViewController.h"
+#import "SatyagrahaViewController.h"
+#import "SwarjViewController.h"
 
 @implementation RootViewController
 
--(void)createSubcategories{
-	NSMutableArray *nonviolence;
-	NSMutableArray *democracy;
-	NSMutableArray *freedom;
-	NSMutableArray *religion;
-	NSMutableArray *media;
-	
-	categories=[[NSMutableArray alloc]initWithObjects:@"Nonviolence",@"Democracy",
-				@"Freedom",@"Religion",@"Media",nil];
-	
-	nonviolence=[[NSMutableArray alloc]init];
-	democracy=[[NSMutableArray alloc]init];
-	freedom=[[NSMutableArray alloc]init];
-	religion=[[NSMutableArray alloc]init];
-	media=[[NSMutableArray alloc]init];
-	
-	[nonviolence addObject:[[NSMutableDictionary alloc]
-							initWithObjectsAndKeys:@"Civil Disobedience",
-							@"name",@"occupy.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+and+civil+disobedience",
-							@"url",nil]];
-	[nonviolence addObject:[[NSMutableDictionary alloc]
-							initWithObjectsAndKeys:@"Nelson Mandela",@"name",
-							@"mandela.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+and+nelson+mandela",
-							@"url",nil]];
-	[nonviolence addObject:[[NSMutableDictionary alloc]
-							initWithObjectsAndKeys:@"Martin Luther King, Jr.",@"name",
-							@"mlk.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+and+martin+luther+king+jr",
-							@"url",nil]];
-	[nonviolence addObject:[[NSMutableDictionary alloc]
-							initWithObjectsAndKeys:@"Lech Walesa",@"name",
-							@"lech.png",@"pic",
-							@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+and+lech+walesa",
-							@"url",nil]];
-	[democracy addObject:[[NSMutableDictionary alloc]
-						  initWithObjectsAndKeys:@"Constitution",@"name",
-						  @"indiaconstitution.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+constitution",
-						  @"url",nil]];
-	[democracy addObject:[[NSMutableDictionary alloc]
-						  initWithObjectsAndKeys:@"Civil Law",@"name",
-						  @"civillaw.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+civil+law",
-						  @"url",nil]];
-	[democracy addObject:[[NSMutableDictionary alloc]
-						  initWithObjectsAndKeys:@"Civil Society",@"name",
-						  @"multiculturalism.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+civil+society",
-						  @"url",nil]];
-	[democracy addObject:[[NSMutableDictionary alloc]
-						  initWithObjectsAndKeys:@"Institutions",@"name",
-						  @"un.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+institutions",
-						  @"url",nil]];
-	[freedom addObject:[[NSMutableDictionary alloc]
-						initWithObjectsAndKeys:@"Social",@"name",
-						@"socialfreedom.png",@"pic",
-						@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+social+freedom",
-						@"url",nil]];
-	[freedom addObject:[[NSMutableDictionary alloc]
-						initWithObjectsAndKeys:@"Political",@"name",
-						@"politicalfreedom.png",@"pic",
-						@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+political+freedom",
-						@"url",nil]];
-	[freedom addObject:[[NSMutableDictionary alloc]
-						initWithObjectsAndKeys:@"Economic",@"name",
-						@"economicfreedom.png",@"pic",
-						@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+economic+freedom",
-						@"url",nil]];
-	[religion addObject:[[NSMutableDictionary alloc]
-						 initWithObjectsAndKeys:@"God",@"name",
-						 @"god.png",@"pic",
-						 @"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+god",
-						 @"url",nil]];
-	[religion addObject:[[NSMutableDictionary alloc]
-						 initWithObjectsAndKeys:@"Spirituality",@"name",
-						 @"spirituality.png",@"pic",
-						 @"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+spirituality",
-						 @"url",nil]];
-	[religion addObject:[[NSMutableDictionary alloc]
-						 initWithObjectsAndKeys:@"Secularism",@"name",
-						 @"secularism.png",@"pic",
-						 @"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+on+secularism",
-						 @"url",nil]];
-	[media addObject:[[NSMutableDictionary alloc]
-					  initWithObjectsAndKeys:@"Movies",@"name",
-					  @"movies.png",@"pic",
-					  @"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+movies",
-					  @"url",nil]];
-	[media addObject:[[NSMutableDictionary alloc]
-					  initWithObjectsAndKeys:@"Biographies",@"name",
-					  @"biographies.png",@"pic",
-					  @"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+biographies",
-					  @"url",nil]];
-	[media addObject:[[NSMutableDictionary alloc]
-					  initWithObjectsAndKeys:@"Articles",@"name",
-					  @"articles.png",@"pic",
-					  @"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+articles",
-					  @"url",nil]];
-	[media addObject:[[NSMutableDictionary alloc]
-					  initWithObjectsAndKeys:@"Documentaries",@"name",
-					  @"documentaries.png",@"pic",
-					  @"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+documentaries",
-					  @"url",nil]];
-	subcategories=[[NSMutableArray alloc]initWithObjects:
-				   nonviolence,democracy,freedom,religion,media,nil];
-	[nonviolence release];
-	[democracy release];
-	[freedom release];
-	[religion release];
-	[media release];
+-(void)createCategories{
+	categories=[[NSMutableArray alloc]init];
+    [categories addObject:[[NSMutableDictionary alloc]
+                           initWithObjectsAndKeys:@"Ahimsa",@"name",
+                           @"(Nonviolence)",@"subtitle",
+                           @"ahimsa.png",@"pic", nil]];
+    [categories addObject:[[NSMutableDictionary alloc]
+                           initWithObjectsAndKeys:@"Satyagraha",@"name",
+                           @"(Civil Disobedience)",@"subtitle",
+                           @"satyagraha.png",@"pic", nil]];
+    [categories addObject:[[NSMutableDictionary alloc]
+                           initWithObjectsAndKeys:@"Swarj",@"name",
+                           @"(Self-Rule)",@"subtitle",
+                           @"swarj.png",@"pic", nil]];
+    [categories addObject:[[NSMutableDictionary alloc]
+                           initWithObjectsAndKeys:@"Gandhi's Life",@"name",
+                           @"(About Gandhi)",@"subtitle",
+                           @"life.png",@"pic", nil]];
 }
+
+
 
 #pragma mark -
 #pragma mark View lifecycle
 
-
 - (void)viewDidLoad {
-	[self createSubcategories];
+    self.navigationController.navigationBar.tintColor = [UIColor darkGrayColor];
+	[self createCategories];
     [super viewDidLoad];
 }
 
@@ -151,13 +67,13 @@
 }
 */
 
-/*
+
  // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	return YES;
 }
- */
+
 
 
 #pragma mark -
@@ -165,17 +81,13 @@
 
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return [categories count];
+    return 1;
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [[subcategories objectAtIndex:section]count];
-}
-
--(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-	return [categories objectAtIndex:section];
+    return [categories count];
 }
 
 // Customize the appearance of table view cells.
@@ -185,19 +97,43 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     
-	[[cell textLabel]setText:[[[subcategories objectAtIndex:indexPath.section]
-							   objectAtIndex:indexPath.row]objectForKey:@"name"]];
+	[[cell textLabel]setText:[[categories objectAtIndex:indexPath.row]objectForKey:@"name"]];
+    cell.textLabel.shadowColor = [UIColor lightGrayColor];
+    cell.textLabel.shadowOffset = CGSizeMake(1, 1);
 	
-	[[cell imageView]setImage:[UIImage imageNamed:[[[subcategories objectAtIndex:indexPath.section]
-													objectAtIndex:indexPath.row]objectForKey:@"pic"]]];
+	[[cell imageView]setImage:[UIImage imageNamed:[[categories objectAtIndex:indexPath.row]objectForKey:@"pic"]]];
 	cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+    NSString *subtitle = [[categories objectAtIndex:indexPath.row]valueForKey:@"subtitle"];
+    cell.detailTextLabel.text = subtitle;
+    cell.detailTextLabel.font = [UIFont boldSystemFontOfSize:12];
+    cell.selectionStyle = UITableViewCellSelectionStyleGray;
 
     return cell;
 }
 
+
+-(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 100.0)];
+    UILabel *headerLabel = [[UILabel alloc]initWithFrame:CGRectZero];
+    headerLabel.textAlignment = UITextAlignmentCenter;
+    headerLabel.textColor = [UIColor whiteColor];
+    headerLabel.shadowColor = [UIColor blackColor];
+    headerLabel.shadowOffset = CGSizeMake(1, 1);
+    headerLabel.backgroundColor = [UIColor clearColor];
+    headerLabel.text = @"\"You are not followers but fellow students, fellow pilgrims, fellow seekers, fellow workers.\"";
+    headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 100.0);
+    headerLabel.numberOfLines = 0;
+    
+    [customView addSubview:headerLabel];
+    return customView;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 100.0;
+}
 
 /*
 // Override to support conditional editing of the table view.
@@ -243,6 +179,41 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *selectedCell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    if([selectedCell.textLabel.text isEqualToString:@"Ahimsa"]){
+        AhimsaViewController *ahimsaViewController = [[AhimsaViewController alloc]
+                                                      initWithNibName:@"AhimsaViewController"
+                                                      bundle:nil];
+        ahimsaViewController.title = [[categories objectAtIndex:indexPath.row]objectForKey:@"name"];
+        [self.navigationController pushViewController:ahimsaViewController animated:YES];
+        [ahimsaViewController release];
+    }else if([selectedCell.textLabel.text isEqualToString:@"Satyagraha"]){
+        SatyagrahaViewController *satyagrahaViewController = [[SatyagrahaViewController alloc]
+                                                              initWithNibName:@"SatyagrahaViewController"
+                                                              bundle:nil];
+        satyagrahaViewController.title = [[categories objectAtIndex:indexPath.row]objectForKey:@"name"];
+        [self.navigationController pushViewController:satyagrahaViewController animated:YES];
+        [satyagrahaViewController release];
+    }else if([selectedCell.textLabel.text isEqualToString:@"Swarj"]){
+        SwarjViewController *swarjViewController = [[SwarjViewController alloc]
+                                                    initWithNibName:@"SwarjViewController"
+                                                    bundle:nil];
+        swarjViewController.title = [[categories objectAtIndex:indexPath.row]objectForKey:@"name"];
+        [self.navigationController pushViewController:swarjViewController animated:YES];
+        [swarjViewController release];
+    }else{
+        LifeViewController *lifeViewController = [[LifeViewController alloc]
+                                                  initWithNibName:@"LifeViewController"
+                                                  bundle:nil];
+        lifeViewController.title = [[categories objectAtIndex:indexPath.row]objectForKey:@"name"];
+        [self.navigationController pushViewController:lifeViewController animated:YES];
+        [lifeViewController release];
+    }
+}
+
+/*
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     SearchViewController *searchViewController=[[SearchViewController alloc]
 												initWithNibName:@"SearchViewController"
 												bundle:nil];
@@ -255,7 +226,7 @@
 	[self.navigationController pushViewController:searchViewController animated:YES];
 	[searchViewController release];
 }
-
+*/
 
 #pragma mark -
 #pragma mark Memory management
@@ -268,6 +239,7 @@
 }
 
 - (void)viewDidUnload {
+    categories = nil;
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
 }
@@ -275,7 +247,6 @@
 
 - (void)dealloc {
 	[categories release];
-	[subcategories release];
     [super dealloc];
 }
 

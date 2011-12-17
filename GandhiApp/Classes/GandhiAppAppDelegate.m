@@ -27,10 +27,11 @@
     // Set the navigation controller as the window's root view controller and display.
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
+    [[UIApplication sharedApplication] 
+       setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:NO];
 
     return YES;
-}
-
+}	
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     /*

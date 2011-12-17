@@ -1,7 +1,7 @@
 TGandhiApp
 v7
 r0
-t345048797.647921
+t345137608.961602
 cCheck dependencies
 cProcessInfoPlistFile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Info.plist GandhiApp-Info.plist
 cCompileXIB /Users/Kyle/AppCanny/GandhiApp/GandhiApp/MainWindow.xib
@@ -9,17 +9,6 @@ cCompileXIB /Users/Kyle/AppCanny/GandhiApp/GandhiApp/RootViewController.xib
 cCpResource build/Debug-iphonesimulator/GandhiApp.app/Default.png Default.png
 cCpResource build/Debug-iphonesimulator/GandhiApp.app/Default@2x.png Default@2x.png
 cCpResource build/Debug-iphonesimulator/GandhiApp.app/Default~ipad.png Default~ipad.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc.png Icon-doc.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc@2x.png Icon-doc@2x.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc~ipad.png Icon-doc~ipad.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc320~ipad.png Icon-doc320~ipad.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-settings.png Icon-settings.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-settings@2x.png Icon-settings@2x.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-spot~ipad.png Icon-spot~ipad.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon.png Icon.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon@2x.png Icon@2x.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon~ipad.png Icon~ipad.png
-cCpResource build/Debug-iphonesimulator/GandhiApp.app/iTunesArtwork.png iTunesArtwork.png
 cCpResource build/Debug-iphonesimulator/GandhiApp.app/lech.png lech.png
 cCpResource build/Debug-iphonesimulator/GandhiApp.app/mandela.png mandela.png
 cCpResource build/Debug-iphonesimulator/GandhiApp.app/mlk.png mlk.png
@@ -56,6 +45,16 @@ cCpResource build/Debug-iphonesimulator/GandhiApp.app/biographies.png biographie
 cCpResource build/Debug-iphonesimulator/GandhiApp.app/biographies@2x.png biographies@2x.png
 cCpResource build/Debug-iphonesimulator/GandhiApp.app/occupy.png occupy.png
 cCpResource build/Debug-iphonesimulator/GandhiApp.app/occupy@2x.png occupy@2x.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc.png Icon-doc.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc@2x.png Icon-doc@2x.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc~ipad.png Icon-doc~ipad.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc320~ipad.png Icon-doc320~ipad.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-settings.png Icon-settings.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-settings@2x.png Icon-settings@2x.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-spot~ipad.png Icon-spot~ipad.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon.png Icon.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon@2x.png Icon@2x.png
+cCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon~ipad.png Icon~ipad.png
 cProcessPCH /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-dpgndbtzynkersfnglfypgvnufhb/GandhiApp_Prefix.pch.gch GandhiApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GandhiApp.build/Debug-iphonesimulator/GandhiApp.build/Objects-normal/i386/main.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GandhiApp.build/Debug-iphonesimulator/GandhiApp.build/Objects-normal/i386/GandhiAppAppDelegate.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -144,19 +143,19 @@ t1323353297
 s24179
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png
-c000000004ED971EE0000000000033EAC
-t1322873326
-s212652
+c000000004EE223270000000000017AD3
+t1323442983
+s96979
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png
-c000000004ED9719E00000000000AC934
-t1322873246
-s706868
+c000000004EE222E40000000000041D85
+t1323442916
+s269701
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png
-c000000004ED9758200000000000CF860
-t1322874242
-s850016
+c000000004EE21F92000000000004D7A2
+t1323442066
+s317346
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/GandhiApp_Prefix.pch
 c000000004EDA68240000000000000144
@@ -167,54 +166,54 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png
-c000000004ED97AAB00000000000007BD
-t1322875563
-s1981
+c000000004EE228BB00000000000007CB
+t1323444411
+s1995
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png
-c000000004ED97BFC000000000002498A
-t1322875900
-s149898
+c000000004EE225A1000000000001AF59
+t1323443617
+s110425
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png
-c000000004ED97B3E0000000000001906
-t1322875710
-s6406
+c000000004EE2288F00000000000015F0
+t1323444367
+s5616
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png
-c000000004ED97BBA00000000000024FE
-t1322875834
-s9470
+c000000004EE227D80000000000001EFA
+t1323444184
+s7930
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png
-c000000004ED9743F000000000000097D
-t1322873919
-s2429
+c000000004EE2250900000000000009E9
+t1323443465
+s2537
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png
-c000000004ED975BC0000000000001F48
-t1322874300
-s8008
+c000000004EE224C60000000000001B91
+t1323443398
+s7057
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png
-c000000004ED974E100000000000017F5
-t1322874081
-s6133
+c000000004EE2248600000000000016C9
+t1323443334
+s5833
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png
-c000000004ED973230000000000001EB9
-t1322873635
-s7865
+c000000004EE109BA0000000000001A00
+t1323370938
+s6656
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png
-c000000004ED976180000000000006137
-t1322874392
-s24887
+c000000004EE109670000000000004C5E
+t1323370855
+s19550
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png
-c000000004ED974960000000000002CE6
-t1322874006
-s11494
+c000000004EE1090800000000000024E7
+t1323370760
+s9447
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/MainWindow.xib
 c000000004EE0C5C90000000000006512
@@ -247,7 +246,7 @@ t1322949619
 s67359
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app
-t1323354386
+t1323444808
 s1938
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app.dSYM
@@ -255,60 +254,60 @@ t1323354386
 s102
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Default.png
-t1322957635
-s212652
+t1323444808
+s96979
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Default@2x.png
-t1322957635
-s706868
+t1323444808
+s269701
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Default~ipad.png
-t1322957635
-s850016
+t1323444808
+s317346
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/GandhiApp
 t1323354386
 s29364
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon-doc.png
-t1322957635
-s1981
+t1323444808
+s1995
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon-doc320~ipad.png
-t1322957635
-s149898
+t1323444808
+s110425
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon-doc@2x.png
-t1322957635
-s6406
+t1323444808
+s5616
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon-doc~ipad.png
-t1322957635
-s9470
+t1323444808
+s7930
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon-settings.png
-t1322957635
-s2429
+t1323444808
+s2537
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon-settings@2x.png
-t1322957635
-s8008
+t1323444808
+s7057
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon-spot~ipad.png
-t1322957635
-s6133
+t1323444808
+s5833
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon.png
-t1322957635
-s7865
+t1323444808
+s6656
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon@2x.png
-t1322957635
-s24887
+t1323444808
+s19550
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Icon~ipad.png
-t1322957635
-s11494
+t1323444808
+s9447
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/Info.plist
 t1322957634
@@ -531,9 +530,9 @@ t1322949967
 s57781
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/iTunesArtwork.png
-c000000004ED9752E0000000000050E93
-t1322874158
-s331411
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/Kyle/AppCanny/GandhiApp/GandhiApp/indiaconstitution.png
 c000000004EDA7D570000000000005087
@@ -672,7 +671,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies345048797#345048797#0(0"0(0#1#0"8623930848#0"0#
+lSLF07#2@18"Check dependencies345137608#345137608#0(0"0(0#1#0"8389723915927121920#0"0#
 
 CCompileC build/GandhiApp.build/Debug-iphonesimulator/GandhiApp.build/Objects-normal/i386/GandhiAppAppDelegate.o /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Classes/GandhiAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s344650583.510589
@@ -751,121 +750,121 @@ x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/RootViewController.xib
 lSLF07#2@33"CompileXIB RootViewController.xib344651042#344651042#0(0"0(0#0#63"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/RootViewController.xib8608042848#622"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app/RootViewController.nib /Users/Kyle/AppCanny/GandhiApp/GandhiApp/RootViewController.xib --sdk /Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Default.png Default.png
-s344650435.272420
-e344650435.307169
+s345137608.871710
+e345137608.902036
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Default.png
 xDefault.png
-lSLF07#2@16"Copy Default.png344650435#344650435#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png8616805792#498"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@16"Copy Default.png345137608#345137608#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png30681223440564324#498"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Default@2x.png Default@2x.png
-s344650435.273530
-e344650435.307449
+s345137608.876825
+e345137608.902158
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Default@2x.png
 xDefault@2x.png
-lSLF07#2@19"Copy Default@2x.png344650435#344650435#0(0"0(0#0#55"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png8616739680#501"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@19"Copy Default@2x.png345137608#345137608#0(0"0(0#0#55"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png8593683072#501"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Default~ipad.png Default~ipad.png
-s344650435.279298
-e344650435.307732
+s345137608.878929
+e345137608.902324
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Default~ipad.png
 xDefault~ipad.png
-lSLF07#2@21"Copy Default~ipad.png344650435#344650435#0(0"0(0#0#57"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png8616580128#503"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@21"Copy Default~ipad.png345137608#345137608#0(0"0(0#0#57"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png8604009920#503"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Default~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc.png Icon-doc.png
-s344650435.285909
-e344650435.307854
+s345137608.887793
+e345137608.902432
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon-doc.png
 xIcon-doc.png
-lSLF07#2@17"Copy Icon-doc.png344650435#344650435#0(0"0(0#0#53"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png8616409120#499"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@17"Copy Icon-doc.png345137608#345137608#0(0"0(0#0#53"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png8607952128#499"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc320~ipad.png Icon-doc320~ipad.png
-s344650435.297178
-e344650435.332576
+s345137608.894444
+e345137608.910018
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon-doc320~ipad.png
 xIcon-doc320~ipad.png
-lSLF07#2@25"Copy Icon-doc320~ipad.png344650435#344650435#0(0"0(0#0#61"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png8615529216#507"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@25"Copy Icon-doc320~ipad.png345137608#345137608#0(0"0(0#0#61"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png8605137568#507"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc320~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc@2x.png Icon-doc@2x.png
-s344650435.291246
-e344650435.307962
+s345137608.890729
+e345137608.919403
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon-doc@2x.png
 xIcon-doc@2x.png
-lSLF07#2@20"Copy Icon-doc@2x.png344650435#344650435#0(0"0(0#0#56"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png8615947840#502"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@20"Copy Icon-doc@2x.png345137608#345137608#0(0"0(0#0#56"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png8605448704#502"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-doc~ipad.png Icon-doc~ipad.png
-s344650435.294172
-e344650435.308066
+s345137608.892538
+e345137608.913802
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon-doc~ipad.png
 xIcon-doc~ipad.png
-lSLF07#2@22"Copy Icon-doc~ipad.png344650435#344650435#0(0"0(0#0#58"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png8615738400#504"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@22"Copy Icon-doc~ipad.png345137608#345137608#0(0"0(0#0#58"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png8605254720#504"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-doc~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-settings.png Icon-settings.png
-s344650435.300299
-e344650435.308182
+s345137608.896524
+e345137608.908071
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon-settings.png
 xIcon-settings.png
-lSLF07#2@22"Copy Icon-settings.png344650435#344650435#0(0"0(0#0#58"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png8614975424#504"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@22"Copy Icon-settings.png345137608#345137608#0(0"0(0#0#58"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png8605107552#504"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-settings@2x.png Icon-settings@2x.png
-s344650435.305883
-e344650435.332679
+s345137608.898315
+e345137608.915921
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon-settings@2x.png
 xIcon-settings@2x.png
-lSLF07#2@25"Copy Icon-settings@2x.png344650435#344650435#0(0"0(0#0#61"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png8614630176#507"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@25"Copy Icon-settings@2x.png345137608#345137608#0(0"0(0#0#61"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png8605026784#507"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-settings@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon-spot~ipad.png Icon-spot~ipad.png
-s344650435.309263
-e344650435.332021
+s345137608.900103
+e345137608.927029
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon-spot~ipad.png
 xIcon-spot~ipad.png
-lSLF07#2@23"Copy Icon-spot~ipad.png344650435#344650435#0(0"0(0#0#59"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png8614004768#505"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@23"Copy Icon-spot~ipad.png345137608#345137608#0(0"0(0#0#59"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png8604593184#505"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon-spot~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon.png Icon.png
-s344650435.311854
-e344650435.332142
+s345137608.902521
+e345137608.920569
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon.png
 xIcon.png
-lSLF07#2@13"Copy Icon.png344650435#344650435#0(0"0(0#0#49"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png8613321472#495"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@13"Copy Icon.png345137608#345137608#0(0"0(0#0#49"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png8603705952#495"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon@2x.png Icon@2x.png
-s344650435.312932
-e344650435.332251
+s345137608.904357
+e345137608.927255
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon@2x.png
 xIcon@2x.png
-lSLF07#2@16"Copy Icon@2x.png344650435#344650435#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png8603432608#498"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@16"Copy Icon@2x.png345137608#345137608#0(0"0(0#0#52"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png8603678400#498"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon@2x.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/Icon~ipad.png Icon~ipad.png
-s344650435.313702
-e344650435.332361
+s345137608.906125
+e345137608.921932
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GandhiApp.app/Icon~ipad.png
 xIcon~ipad.png
-lSLF07#2@18"Copy Icon~ipad.png344650435#344650435#0(0"0(0#0#54"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png8615253152#500"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@18"Copy Icon~ipad.png345137608#345137608#0(0"0(0#0#54"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png8603153408#500"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Kyle/AppCanny/GandhiApp/GandhiApp/Icon~ipad.png /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 
 CCpResource build/Debug-iphonesimulator/GandhiApp.app/articles.png articles.png
 s344651302.641393
@@ -1233,10 +1232,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@31"Precompile GandhiApp_Prefix.pch344650435#344650437#0(0"0(0#0#61"/Users/Kyle/AppCanny/GandhiApp/GandhiApp/GandhiApp_Prefix.pch8614391200#1892"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphonesimulator/GandhiApp.build/GandhiApp-generated-files.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphonesimulator/GandhiApp.build/GandhiApp-own-target-headers.hmap -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphonesimulator/GandhiApp.build/GandhiApp-all-target-headers.hmap -iquote /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphonesimulator/GandhiApp.build/GandhiApp-project-headers.hmap -F/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/include -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphonesimulator/GandhiApp.build/DerivedSources/i386 -I/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/GandhiApp.build/Debug-iphonesimulator/GandhiApp.build/DerivedSources -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/GandhiApp_Prefix.pch -o /var/folders/Q+/Q+9gQBe5GJKToZD6alG9RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GandhiApp_Prefix-dpgndbtzynkersfnglfypgvnufhb/GandhiApp_Prefix.pch.gch0#
 
 CTouch /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app
-s345047186.244877
-e345047186.248969
+s345137608.927985
+e345137608.961516
 r1
 xTouch
 x/Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app
-lSLF07#2@88"Touch /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app345047186#345047186#0(0"0(0#0#0"8607631552#298"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
+lSLF07#2@88"Touch /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app345137608#345137608#0(0"0(0#0#0"8600405056#298"    cd /Users/Kyle/AppCanny/GandhiApp/GandhiApp    setenv PATH "/Developer/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Kyle/AppCanny/GandhiApp/GandhiApp/build/Debug-iphonesimulator/GandhiApp.app0#
 

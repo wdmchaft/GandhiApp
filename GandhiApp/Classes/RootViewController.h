@@ -8,14 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class DetailViewController;
-
 @interface RootViewController : UITableViewController {
-	DetailViewController *detailViewController;
 	NSMutableArray *categories;
-	NSMutableArray *subcategories;
 }
 
--(void)createSubcategories;
+-(void)createCategories;
 
 @end

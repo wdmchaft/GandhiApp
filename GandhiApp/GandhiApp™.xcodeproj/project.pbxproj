@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* GandhiAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GandhiAppAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		271418AB149BA1910088DD9F /* AhimsaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271418A9149BA1910088DD9F /* AhimsaViewController.m */; };
+		271418AC149BA1910088DD9F /* AhimsaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271418AA149BA1910088DD9F /* AhimsaViewController.xib */; };
+		271418B0149BBF1D0088DD9F /* SatyagrahaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271418AE149BBF1D0088DD9F /* SatyagrahaViewController.m */; };
+		271418B1149BBF1D0088DD9F /* SatyagrahaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271418AF149BBF1D0088DD9F /* SatyagrahaViewController.xib */; };
+		271418B5149BBF730088DD9F /* SwarjViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271418B3149BBF730088DD9F /* SwarjViewController.m */; };
+		271418B6149BBF730088DD9F /* SwarjViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271418B4149BBF730088DD9F /* SwarjViewController.xib */; };
+		271418BA149BBF9A0088DD9F /* LifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271418B8149BBF9A0088DD9F /* LifeViewController.m */; };
+		271418BB149BBF9A0088DD9F /* LifeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271418B9149BBF9A0088DD9F /* LifeViewController.xib */; };
+		271418D7149BC5B50088DD9F /* LeadersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271418D5149BC5B50088DD9F /* LeadersViewController.m */; };
+		271418D8149BC5B50088DD9F /* LeadersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271418D6149BC5B50088DD9F /* LeadersViewController.xib */; };
+		271418DC149BC5D10088DD9F /* MovementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271418DA149BC5D10088DD9F /* MovementsViewController.m */; };
+		271418DD149BC5D10088DD9F /* MovementsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271418DB149BC5D10088DD9F /* MovementsViewController.xib */; };
+		271418ED149BDF750088DD9F /* FoundationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271418EB149BDF740088DD9F /* FoundationsViewController.m */; };
+		271418EE149BDF750088DD9F /* FoundationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271418EC149BDF750088DD9F /* FoundationsViewController.xib */; };
+		271D5D8C149C023000DD7E98 /* PhilosophiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271D5D8A149C023000DD7E98 /* PhilosophiesViewController.m */; };
+		271D5D8D149C023000DD7E98 /* PhilosophiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271D5D8B149C023000DD7E98 /* PhilosophiesViewController.xib */; };
+		2751D474148AEC1C00EC4AD0 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2751D472148AEC1C00EC4AD0 /* SearchViewController.m */; };
+		2751D475148AEC1C00EC4AD0 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2751D473148AEC1C00EC4AD0 /* SearchViewController.xib */; };
+		27AFE65C149C39E000230BA4 /* ahimsa.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE60A149C39DF00230BA4 /* ahimsa.png */; };
+		27AFE65D149C39E000230BA4 /* ahimsa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE60B149C39DF00230BA4 /* ahimsa@2x.png */; };
+		27AFE65E149C39E000230BA4 /* aquino.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE60C149C39DF00230BA4 /* aquino.png */; };
+		27AFE65F149C39E000230BA4 /* aquino@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE60D149C39DF00230BA4 /* aquino@2x.png */; };
+		27AFE660149C39E000230BA4 /* arab.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE60E149C39DF00230BA4 /* arab.png */; };
+		27AFE661149C39E000230BA4 /* arab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE60F149C39DF00230BA4 /* arab@2x.png */; };
+		27AFE662149C39E000230BA4 /* articles.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE610149C39DF00230BA4 /* articles.png */; };
+		27AFE663149C39E000230BA4 /* articles@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE611149C39DF00230BA4 /* articles@2x.png */; };
+		27AFE664149C39E000230BA4 /* biographies.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE612149C39DF00230BA4 /* biographies.png */; };
+		27AFE665149C39E000230BA4 /* biographies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE613149C39DF00230BA4 /* biographies@2x.png */; };
+		27AFE666149C39E000230BA4 /* civillaw.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE614149C39DF00230BA4 /* civillaw.png */; };
+		27AFE667149C39E000230BA4 /* civillaw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE615149C39DF00230BA4 /* civillaw@2x.png */; };
+		27AFE668149C39E000230BA4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE616149C39DF00230BA4 /* Default.png */; };
+		27AFE669149C39E000230BA4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE617149C39DF00230BA4 /* Default@2x.png */; };
+		27AFE66A149C39E000230BA4 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE618149C39DF00230BA4 /* Default~ipad.png */; };
+		27AFE66B149C39E000230BA4 /* democracy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE619149C39DF00230BA4 /* democracy.png */; };
+		27AFE66C149C39E000230BA4 /* democracy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE61A149C39DF00230BA4 /* democracy@2x.png */; };
+		27AFE66D149C39E000230BA4 /* documentaries.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE61B149C39DF00230BA4 /* documentaries.png */; };
+		27AFE66E149C39E000230BA4 /* documentaries@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE61C149C39DF00230BA4 /* documentaries@2x.png */; };
+		27AFE66F149C39E000230BA4 /* economicfreedom.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE61D149C39DF00230BA4 /* economicfreedom.png */; };
+		27AFE670149C39E000230BA4 /* economicfreedom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE61E149C39DF00230BA4 /* economicfreedom@2x.png */; };
+		27AFE671149C39E000230BA4 /* foundation.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE61F149C39DF00230BA4 /* foundation.png */; };
+		27AFE672149C39E000230BA4 /* foundation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE620149C39DF00230BA4 /* foundation@2x.png */; };
+		27AFE673149C39E000230BA4 /* gandhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE621149C39DF00230BA4 /* gandhi.png */; };
+		27AFE674149C39E000230BA4 /* gandhi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE622149C39DF00230BA4 /* gandhi@2x.png */; };
+		27AFE675149C39E000230BA4 /* god.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE623149C39DF00230BA4 /* god.png */; };
+		27AFE676149C39E000230BA4 /* god@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE624149C39DF00230BA4 /* god@2x.png */; };
+		27AFE677149C39E000230BA4 /* Icon-doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE625149C39DF00230BA4 /* Icon-doc.png */; };
+		27AFE678149C39E000230BA4 /* Icon-doc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE626149C39DF00230BA4 /* Icon-doc@2x.png */; };
+		27AFE679149C39E000230BA4 /* Icon-doc~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE627149C39DF00230BA4 /* Icon-doc~ipad.png */; };
+		27AFE67A149C39E000230BA4 /* Icon-doc320~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE628149C39DF00230BA4 /* Icon-doc320~ipad.png */; };
+		27AFE67B149C39E000230BA4 /* Icon-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE629149C39DF00230BA4 /* Icon-settings.png */; };
+		27AFE67C149C39E000230BA4 /* Icon-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE62A149C39DF00230BA4 /* Icon-settings@2x.png */; };
+		27AFE67D149C39E000230BA4 /* Icon-spot~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE62B149C39DF00230BA4 /* Icon-spot~ipad.png */; };
+		27AFE67E149C39E000230BA4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE62C149C39DF00230BA4 /* Icon.png */; };
+		27AFE67F149C39E000230BA4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE62D149C39DF00230BA4 /* Icon@2x.png */; };
+		27AFE680149C39E000230BA4 /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE62E149C39DF00230BA4 /* Icon~ipad.png */; };
+		27AFE681149C39E000230BA4 /* indiaconstitution.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE62F149C39DF00230BA4 /* indiaconstitution.png */; };
+		27AFE682149C39E000230BA4 /* indiaconstitution@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE630149C39DF00230BA4 /* indiaconstitution@2x.png */; };
+		27AFE683149C39E000230BA4 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE631149C39DF00230BA4 /* iTunesArtwork.png */; };
+		27AFE684149C39E000230BA4 /* leadership.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE632149C39DF00230BA4 /* leadership.png */; };
+		27AFE685149C39E000230BA4 /* leadership@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE633149C39DF00230BA4 /* leadership@2x.png */; };
+		27AFE686149C39E000230BA4 /* lech.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE634149C39DF00230BA4 /* lech.png */; };
+		27AFE687149C39E000230BA4 /* lech@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE635149C39DF00230BA4 /* lech@2x.png */; };
+		27AFE688149C39E000230BA4 /* life.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE636149C39DF00230BA4 /* life.png */; };
+		27AFE689149C39E000230BA4 /* life@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE637149C39DF00230BA4 /* life@2x.png */; };
+		27AFE68A149C39E000230BA4 /* mandela.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE638149C39DF00230BA4 /* mandela.png */; };
+		27AFE68B149C39E000230BA4 /* mandela@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE639149C39DF00230BA4 /* mandela@2x.png */; };
+		27AFE68C149C39E000230BA4 /* mlk.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE63A149C39DF00230BA4 /* mlk.png */; };
+		27AFE68D149C39E000230BA4 /* mlk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE63B149C39DF00230BA4 /* mlk@2x.png */; };
+		27AFE68E149C39E000230BA4 /* movement.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE63C149C39E000230BA4 /* movement.png */; };
+		27AFE68F149C39E000230BA4 /* movement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE63D149C39E000230BA4 /* movement@2x.png */; };
+		27AFE690149C39E000230BA4 /* movies.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE63E149C39E000230BA4 /* movies.png */; };
+		27AFE691149C39E000230BA4 /* movies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE63F149C39E000230BA4 /* movies@2x.png */; };
+		27AFE692149C39E000230BA4 /* multiculturalism.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE640149C39E000230BA4 /* multiculturalism.png */; };
+		27AFE693149C39E000230BA4 /* multiculturalism@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE641149C39E000230BA4 /* multiculturalism@2x.png */; };
+		27AFE694149C39E000230BA4 /* nonviolence.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE642149C39E000230BA4 /* nonviolence.png */; };
+		27AFE695149C39E000230BA4 /* nonviolence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE643149C39E000230BA4 /* nonviolence@2x.png */; };
+		27AFE696149C39E000230BA4 /* philosophies.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE644149C39E000230BA4 /* philosophies.png */; };
+		27AFE697149C39E000230BA4 /* philosophies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE645149C39E000230BA4 /* philosophies@2x.png */; };
+		27AFE698149C39E000230BA4 /* politicalfreedom.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE646149C39E000230BA4 /* politicalfreedom.png */; };
+		27AFE699149C39E000230BA4 /* politicalfreedom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE647149C39E000230BA4 /* politicalfreedom@2x.png */; };
+		27AFE69A149C39E000230BA4 /* pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE648149C39E000230BA4 /* pop.png */; };
+		27AFE69B149C39E000230BA4 /* pop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE649149C39E000230BA4 /* pop@2x.png */; };
+		27AFE69C149C39E000230BA4 /* quit.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE64A149C39E000230BA4 /* quit.png */; };
+		27AFE69D149C39E000230BA4 /* quit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE64B149C39E000230BA4 /* quit@2x.png */; };
+		27AFE69E149C39E000230BA4 /* religion.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE64C149C39E000230BA4 /* religion.png */; };
+		27AFE69F149C39E000230BA4 /* religion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE64D149C39E000230BA4 /* religion@2x.png */; };
+		27AFE6A0149C39E000230BA4 /* Satyagraha.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE64E149C39E000230BA4 /* Satyagraha.png */; };
+		27AFE6A1149C39E000230BA4 /* satyagraha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE64F149C39E000230BA4 /* satyagraha@2x.png */; };
+		27AFE6A2149C39E000230BA4 /* secularism.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE650149C39E000230BA4 /* secularism.png */; };
+		27AFE6A3149C39E000230BA4 /* secularism@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE651149C39E000230BA4 /* secularism@2x.png */; };
+		27AFE6A4149C39E000230BA4 /* socialfreedom.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE652149C39E000230BA4 /* socialfreedom.png */; };
+		27AFE6A5149C39E000230BA4 /* socialfreedom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE653149C39E000230BA4 /* socialfreedom@2x.png */; };
+		27AFE6A6149C39E000230BA4 /* spirituality.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE654149C39E000230BA4 /* spirituality.png */; };
+		27AFE6A7149C39E000230BA4 /* spirituality@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE655149C39E000230BA4 /* spirituality@2x.png */; };
+		27AFE6A8149C39E000230BA4 /* swarj.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE656149C39E000230BA4 /* swarj.png */; };
+		27AFE6A9149C39E000230BA4 /* swarj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE657149C39E000230BA4 /* swarj@2x.png */; };
+		27AFE6AA149C39E000230BA4 /* un.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE658149C39E000230BA4 /* un.png */; };
+		27AFE6AB149C39E000230BA4 /* un@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE659149C39E000230BA4 /* un@2x.png */; };
+		27AFE6AC149C39E000230BA4 /* velvet.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE65A149C39E000230BA4 /* velvet.png */; };
+		27AFE6AD149C39E000230BA4 /* velvet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE65B149C39E000230BA4 /* velvet@2x.png */; };
+		27AFE6BC149CFC6800230BA4 /* occupy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE6BA149CFC6800230BA4 /* occupy.png */; };
+		27AFE6BD149CFC6800230BA4 /* occupy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AFE6BB149CFC6800230BA4 /* occupy@2x.png */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GandhiAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GandhiAppAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GandhiAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GandhiAppAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* GandhiApp™.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GandhiApp™.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		271418A8149BA1910088DD9F /* AhimsaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AhimsaViewController.h; sourceTree = "<group>"; };
+		271418A9149BA1910088DD9F /* AhimsaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AhimsaViewController.m; sourceTree = "<group>"; };
+		271418AA149BA1910088DD9F /* AhimsaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AhimsaViewController.xib; path = Classes/AhimsaViewController.xib; sourceTree = "<group>"; };
+		271418AD149BBF1D0088DD9F /* SatyagrahaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SatyagrahaViewController.h; sourceTree = "<group>"; };
+		271418AE149BBF1D0088DD9F /* SatyagrahaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SatyagrahaViewController.m; sourceTree = "<group>"; };
+		271418AF149BBF1D0088DD9F /* SatyagrahaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SatyagrahaViewController.xib; path = Classes/SatyagrahaViewController.xib; sourceTree = "<group>"; };
+		271418B2149BBF720088DD9F /* SwarjViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwarjViewController.h; sourceTree = "<group>"; };
+		271418B3149BBF730088DD9F /* SwarjViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwarjViewController.m; sourceTree = "<group>"; };
+		271418B4149BBF730088DD9F /* SwarjViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SwarjViewController.xib; path = Classes/SwarjViewController.xib; sourceTree = "<group>"; };
+		271418B7149BBF9A0088DD9F /* LifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeViewController.h; sourceTree = "<group>"; };
+		271418B8149BBF9A0088DD9F /* LifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeViewController.m; sourceTree = "<group>"; };
+		271418B9149BBF9A0088DD9F /* LifeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LifeViewController.xib; path = Classes/LifeViewController.xib; sourceTree = "<group>"; };
+		271418D4149BC5B50088DD9F /* LeadersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeadersViewController.h; sourceTree = "<group>"; };
+		271418D5149BC5B50088DD9F /* LeadersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadersViewController.m; sourceTree = "<group>"; };
+		271418D6149BC5B50088DD9F /* LeadersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeadersViewController.xib; path = Classes/LeadersViewController.xib; sourceTree = "<group>"; };
+		271418D9149BC5D10088DD9F /* MovementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovementsViewController.h; sourceTree = "<group>"; };
+		271418DA149BC5D10088DD9F /* MovementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovementsViewController.m; sourceTree = "<group>"; };
+		271418DB149BC5D10088DD9F /* MovementsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MovementsViewController.xib; path = Classes/MovementsViewController.xib; sourceTree = "<group>"; };
+		271418EA149BDF740088DD9F /* FoundationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationsViewController.h; sourceTree = "<group>"; };
+		271418EB149BDF740088DD9F /* FoundationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundationsViewController.m; sourceTree = "<group>"; };
+		271418EC149BDF750088DD9F /* FoundationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FoundationsViewController.xib; path = Classes/FoundationsViewController.xib; sourceTree = "<group>"; };
+		271D5D89149C023000DD7E98 /* PhilosophiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhilosophiesViewController.h; sourceTree = "<group>"; };
+		271D5D8A149C023000DD7E98 /* PhilosophiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhilosophiesViewController.m; sourceTree = "<group>"; };
+		271D5D8B149C023000DD7E98 /* PhilosophiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhilosophiesViewController.xib; path = Classes/PhilosophiesViewController.xib; sourceTree = "<group>"; };
+		2751D471148AEC1C00EC4AD0 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		2751D472148AEC1C00EC4AD0 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		2751D473148AEC1C00EC4AD0 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SearchViewController.xib; path = Classes/SearchViewController.xib; sourceTree = "<group>"; };
+		27AFE60A149C39DF00230BA4 /* ahimsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahimsa.png; sourceTree = "<group>"; };
+		27AFE60B149C39DF00230BA4 /* ahimsa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ahimsa@2x.png"; sourceTree = "<group>"; };
+		27AFE60C149C39DF00230BA4 /* aquino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquino.png; sourceTree = "<group>"; };
+		27AFE60D149C39DF00230BA4 /* aquino@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aquino@2x.png"; sourceTree = "<group>"; };
+		27AFE60E149C39DF00230BA4 /* arab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arab.png; sourceTree = "<group>"; };
+		27AFE60F149C39DF00230BA4 /* arab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arab@2x.png"; sourceTree = "<group>"; };
+		27AFE610149C39DF00230BA4 /* articles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = articles.png; sourceTree = "<group>"; };
+		27AFE611149C39DF00230BA4 /* articles@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "articles@2x.png"; sourceTree = "<group>"; };
+		27AFE612149C39DF00230BA4 /* biographies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biographies.png; sourceTree = "<group>"; };
+		27AFE613149C39DF00230BA4 /* biographies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biographies@2x.png"; sourceTree = "<group>"; };
+		27AFE614149C39DF00230BA4 /* civillaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = civillaw.png; sourceTree = "<group>"; };
+		27AFE615149C39DF00230BA4 /* civillaw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "civillaw@2x.png"; sourceTree = "<group>"; };
+		27AFE616149C39DF00230BA4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		27AFE617149C39DF00230BA4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		27AFE618149C39DF00230BA4 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		27AFE619149C39DF00230BA4 /* democracy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = democracy.png; sourceTree = "<group>"; };
+		27AFE61A149C39DF00230BA4 /* democracy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "democracy@2x.png"; sourceTree = "<group>"; };
+		27AFE61B149C39DF00230BA4 /* documentaries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = documentaries.png; sourceTree = "<group>"; };
+		27AFE61C149C39DF00230BA4 /* documentaries@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "documentaries@2x.png"; sourceTree = "<group>"; };
+		27AFE61D149C39DF00230BA4 /* economicfreedom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = economicfreedom.png; sourceTree = "<group>"; };
+		27AFE61E149C39DF00230BA4 /* economicfreedom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "economicfreedom@2x.png"; sourceTree = "<group>"; };
+		27AFE61F149C39DF00230BA4 /* foundation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foundation.png; sourceTree = "<group>"; };
+		27AFE620149C39DF00230BA4 /* foundation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foundation@2x.png"; sourceTree = "<group>"; };
+		27AFE621149C39DF00230BA4 /* gandhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gandhi.png; sourceTree = "<group>"; };
+		27AFE622149C39DF00230BA4 /* gandhi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gandhi@2x.png"; sourceTree = "<group>"; };
+		27AFE623149C39DF00230BA4 /* god.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = god.png; sourceTree = "<group>"; };
+		27AFE624149C39DF00230BA4 /* god@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "god@2x.png"; sourceTree = "<group>"; };
+		27AFE625149C39DF00230BA4 /* Icon-doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-doc.png"; sourceTree = "<group>"; };
+		27AFE626149C39DF00230BA4 /* Icon-doc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-doc@2x.png"; sourceTree = "<group>"; };
+		27AFE627149C39DF00230BA4 /* Icon-doc~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-doc~ipad.png"; sourceTree = "<group>"; };
+		27AFE628149C39DF00230BA4 /* Icon-doc320~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-doc320~ipad.png"; sourceTree = "<group>"; };
+		27AFE629149C39DF00230BA4 /* Icon-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-settings.png"; sourceTree = "<group>"; };
+		27AFE62A149C39DF00230BA4 /* Icon-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-settings@2x.png"; sourceTree = "<group>"; };
+		27AFE62B149C39DF00230BA4 /* Icon-spot~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-spot~ipad.png"; sourceTree = "<group>"; };
+		27AFE62C149C39DF00230BA4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		27AFE62D149C39DF00230BA4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		27AFE62E149C39DF00230BA4 /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
+		27AFE62F149C39DF00230BA4 /* indiaconstitution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indiaconstitution.png; sourceTree = "<group>"; };
+		27AFE630149C39DF00230BA4 /* indiaconstitution@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indiaconstitution@2x.png"; sourceTree = "<group>"; };
+		27AFE631149C39DF00230BA4 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		27AFE632149C39DF00230BA4 /* leadership.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leadership.png; sourceTree = "<group>"; };
+		27AFE633149C39DF00230BA4 /* leadership@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leadership@2x.png"; sourceTree = "<group>"; };
+		27AFE634149C39DF00230BA4 /* lech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lech.png; sourceTree = "<group>"; };
+		27AFE635149C39DF00230BA4 /* lech@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lech@2x.png"; sourceTree = "<group>"; };
+		27AFE636149C39DF00230BA4 /* life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life.png; sourceTree = "<group>"; };
+		27AFE637149C39DF00230BA4 /* life@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "life@2x.png"; sourceTree = "<group>"; };
+		27AFE638149C39DF00230BA4 /* mandela.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mandela.png; sourceTree = "<group>"; };
+		27AFE639149C39DF00230BA4 /* mandela@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mandela@2x.png"; sourceTree = "<group>"; };
+		27AFE63A149C39DF00230BA4 /* mlk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlk.png; sourceTree = "<group>"; };
+		27AFE63B149C39DF00230BA4 /* mlk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mlk@2x.png"; sourceTree = "<group>"; };
+		27AFE63C149C39E000230BA4 /* movement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movement.png; sourceTree = "<group>"; };
+		27AFE63D149C39E000230BA4 /* movement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movement@2x.png"; sourceTree = "<group>"; };
+		27AFE63E149C39E000230BA4 /* movies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movies.png; sourceTree = "<group>"; };
+		27AFE63F149C39E000230BA4 /* movies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movies@2x.png"; sourceTree = "<group>"; };
+		27AFE640149C39E000230BA4 /* multiculturalism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiculturalism.png; sourceTree = "<group>"; };
+		27AFE641149C39E000230BA4 /* multiculturalism@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multiculturalism@2x.png"; sourceTree = "<group>"; };
+		27AFE642149C39E000230BA4 /* nonviolence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nonviolence.png; sourceTree = "<group>"; };
+		27AFE643149C39E000230BA4 /* nonviolence@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nonviolence@2x.png"; sourceTree = "<group>"; };
+		27AFE644149C39E000230BA4 /* philosophies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = philosophies.png; sourceTree = "<group>"; };
+		27AFE645149C39E000230BA4 /* philosophies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "philosophies@2x.png"; sourceTree = "<group>"; };
+		27AFE646149C39E000230BA4 /* politicalfreedom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = politicalfreedom.png; sourceTree = "<group>"; };
+		27AFE647149C39E000230BA4 /* politicalfreedom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "politicalfreedom@2x.png"; sourceTree = "<group>"; };
+		27AFE648149C39E000230BA4 /* pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pop.png; sourceTree = "<group>"; };
+		27AFE649149C39E000230BA4 /* pop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop@2x.png"; sourceTree = "<group>"; };
+		27AFE64A149C39E000230BA4 /* quit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quit.png; sourceTree = "<group>"; };
+		27AFE64B149C39E000230BA4 /* quit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quit@2x.png"; sourceTree = "<group>"; };
+		27AFE64C149C39E000230BA4 /* religion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = religion.png; sourceTree = "<group>"; };
+		27AFE64D149C39E000230BA4 /* religion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "religion@2x.png"; sourceTree = "<group>"; };
+		27AFE64E149C39E000230BA4 /* Satyagraha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Satyagraha.png; sourceTree = "<group>"; };
+		27AFE64F149C39E000230BA4 /* satyagraha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "satyagraha@2x.png"; sourceTree = "<group>"; };
+		27AFE650149C39E000230BA4 /* secularism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secularism.png; sourceTree = "<group>"; };
+		27AFE651149C39E000230BA4 /* secularism@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secularism@2x.png"; sourceTree = "<group>"; };
+		27AFE652149C39E000230BA4 /* socialfreedom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialfreedom.png; sourceTree = "<group>"; };
+		27AFE653149C39E000230BA4 /* socialfreedom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "socialfreedom@2x.png"; sourceTree = "<group>"; };
+		27AFE654149C39E000230BA4 /* spirituality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spirituality.png; sourceTree = "<group>"; };
+		27AFE655149C39E000230BA4 /* spirituality@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spirituality@2x.png"; sourceTree = "<group>"; };
+		27AFE656149C39E000230BA4 /* swarj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swarj.png; sourceTree = "<group>"; };
+		27AFE657149C39E000230BA4 /* swarj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swarj@2x.png"; sourceTree = "<group>"; };
+		27AFE658149C39E000230BA4 /* un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = un.png; sourceTree = "<group>"; };
+		27AFE659149C39E000230BA4 /* un@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "un@2x.png"; sourceTree = "<group>"; };
+		27AFE65A149C39E000230BA4 /* velvet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = velvet.png; sourceTree = "<group>"; };
+		27AFE65B149C39E000230BA4 /* velvet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "velvet@2x.png"; sourceTree = "<group>"; };
+		27AFE6BA149CFC6800230BA4 /* occupy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = occupy.png; sourceTree = "<group>"; };
+		27AFE6BB149CFC6800230BA4 /* occupy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "occupy@2x.png"; sourceTree = "<group>"; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* GandhiApp™_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GandhiApp™_Prefix.pch"; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* GandhiApp™-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GandhiApp™-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				271418A8149BA1910088DD9F /* AhimsaViewController.h */,
+				271418A9149BA1910088DD9F /* AhimsaViewController.m */,
+				271418EA149BDF740088DD9F /* FoundationsViewController.h */,
+				271418EB149BDF740088DD9F /* FoundationsViewController.m */,
+				1D3623240D0F684500981E51 /* GandhiAppAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GandhiAppAppDelegate.m */,
+				271418D4149BC5B50088DD9F /* LeadersViewController.h */,
+				271418D5149BC5B50088DD9F /* LeadersViewController.m */,
+				271418B7149BBF9A0088DD9F /* LifeViewController.h */,
+				271418B8149BBF9A0088DD9F /* LifeViewController.m */,
+				271418D9149BC5D10088DD9F /* MovementsViewController.h */,
+				271418DA149BC5D10088DD9F /* MovementsViewController.m */,
+				27AFE6BA149CFC6800230BA4 /* occupy.png */,
+				27AFE6BB149CFC6800230BA4 /* occupy@2x.png */,
+				271D5D89149C023000DD7E98 /* PhilosophiesViewController.h */,
+				271D5D8A149C023000DD7E98 /* PhilosophiesViewController.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				271418AD149BBF1D0088DD9F /* SatyagrahaViewController.h */,
+				271418AE149BBF1D0088DD9F /* SatyagrahaViewController.m */,
+				2751D471148AEC1C00EC4AD0 /* SearchViewController.h */,
+				2751D472148AEC1C00EC4AD0 /* SearchViewController.m */,
+				271418B2149BBF720088DD9F /* SwarjViewController.h */,
+				271418B3149BBF730088DD9F /* SwarjViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* GandhiApp™.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* GandhiApp™_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				271418AA149BA1910088DD9F /* AhimsaViewController.xib */,
+				271418EC149BDF750088DD9F /* FoundationsViewController.xib */,
+				271418D6149BC5B50088DD9F /* LeadersViewController.xib */,
+				271418B9149BBF9A0088DD9F /* LifeViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				271418DB149BC5D10088DD9F /* MovementsViewController.xib */,
+				271D5D8B149C023000DD7E98 /* PhilosophiesViewController.xib */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				2751D473148AEC1C00EC4AD0 /* SearchViewController.xib */,
+				271418AF149BBF1D0088DD9F /* SatyagrahaViewController.xib */,
+				271418B4149BBF730088DD9F /* SwarjViewController.xib */,
+				27AFE60A149C39DF00230BA4 /* ahimsa.png */,
+				27AFE60B149C39DF00230BA4 /* ahimsa@2x.png */,
+				27AFE60C149C39DF00230BA4 /* aquino.png */,
+				27AFE60D149C39DF00230BA4 /* aquino@2x.png */,
+				27AFE60E149C39DF00230BA4 /* arab.png */,
+				27AFE60F149C39DF00230BA4 /* arab@2x.png */,
+				27AFE610149C39DF00230BA4 /* articles.png */,
+				27AFE611149C39DF00230BA4 /* articles@2x.png */,
+				27AFE612149C39DF00230BA4 /* biographies.png */,
+				27AFE613149C39DF00230BA4 /* biographies@2x.png */,
+				27AFE614149C39DF00230BA4 /* civillaw.png */,
+				27AFE615149C39DF00230BA4 /* civillaw@2x.png */,
+				27AFE616149C39DF00230BA4 /* Default.png */,
+				27AFE617149C39DF00230BA4 /* Default@2x.png */,
+				27AFE618149C39DF00230BA4 /* Default~ipad.png */,
+				27AFE619149C39DF00230BA4 /* democracy.png */,
+				27AFE61A149C39DF00230BA4 /* democracy@2x.png */,
+				27AFE61B149C39DF00230BA4 /* documentaries.png */,
+				27AFE61C149C39DF00230BA4 /* documentaries@2x.png */,
+				27AFE61D149C39DF00230BA4 /* economicfreedom.png */,
+				27AFE61E149C39DF00230BA4 /* economicfreedom@2x.png */,
+				27AFE61F149C39DF00230BA4 /* foundation.png */,
+				27AFE620149C39DF00230BA4 /* foundation@2x.png */,
+				27AFE621149C39DF00230BA4 /* gandhi.png */,
+				27AFE622149C39DF00230BA4 /* gandhi@2x.png */,
+				27AFE623149C39DF00230BA4 /* god.png */,
+				27AFE624149C39DF00230BA4 /* god@2x.png */,
+				27AFE625149C39DF00230BA4 /* Icon-doc.png */,
+				27AFE626149C39DF00230BA4 /* Icon-doc@2x.png */,
+				27AFE627149C39DF00230BA4 /* Icon-doc~ipad.png */,
+				27AFE628149C39DF00230BA4 /* Icon-doc320~ipad.png */,
+				27AFE629149C39DF00230BA4 /* Icon-settings.png */,
+				27AFE62A149C39DF00230BA4 /* Icon-settings@2x.png */,
+				27AFE62B149C39DF00230BA4 /* Icon-spot~ipad.png */,
+				27AFE62C149C39DF00230BA4 /* Icon.png */,
+				27AFE62D149C39DF00230BA4 /* Icon@2x.png */,
+				27AFE62E149C39DF00230BA4 /* Icon~ipad.png */,
+				27AFE62F149C39DF00230BA4 /* indiaconstitution.png */,
+				27AFE630149C39DF00230BA4 /* indiaconstitution@2x.png */,
+				27AFE631149C39DF00230BA4 /* iTunesArtwork.png */,
+				27AFE632149C39DF00230BA4 /* leadership.png */,
+				27AFE633149C39DF00230BA4 /* leadership@2x.png */,
+				27AFE634149C39DF00230BA4 /* lech.png */,
+				27AFE635149C39DF00230BA4 /* lech@2x.png */,
+				27AFE636149C39DF00230BA4 /* life.png */,
+				27AFE637149C39DF00230BA4 /* life@2x.png */,
+				27AFE638149C39DF00230BA4 /* mandela.png */,
+				27AFE639149C39DF00230BA4 /* mandela@2x.png */,
+				27AFE63A149C39DF00230BA4 /* mlk.png */,
+				27AFE63B149C39DF00230BA4 /* mlk@2x.png */,
+				27AFE63C149C39E000230BA4 /* movement.png */,
+				27AFE63D149C39E000230BA4 /* movement@2x.png */,
+				27AFE63E149C39E000230BA4 /* movies.png */,
+				27AFE63F149C39E000230BA4 /* movies@2x.png */,
+				27AFE640149C39E000230BA4 /* multiculturalism.png */,
+				27AFE641149C39E000230BA4 /* multiculturalism@2x.png */,
+				27AFE642149C39E000230BA4 /* nonviolence.png */,
+				27AFE643149C39E000230BA4 /* nonviolence@2x.png */,
+				27AFE644149C39E000230BA4 /* philosophies.png */,
+				27AFE645149C39E000230BA4 /* philosophies@2x.png */,
+				27AFE646149C39E000230BA4 /* politicalfreedom.png */,
+				27AFE647149C39E000230BA4 /* politicalfreedom@2x.png */,
+				27AFE648149C39E000230BA4 /* pop.png */,
+				27AFE649149C39E000230BA4 /* pop@2x.png */,
+				27AFE64A149C39E000230BA4 /* quit.png */,
+				27AFE64B149C39E000230BA4 /* quit@2x.png */,
+				27AFE64C149C39E000230BA4 /* religion.png */,
+				27AFE64D149C39E000230BA4 /* religion@2x.png */,
+				27AFE64E149C39E000230BA4 /* Satyagraha.png */,
+				27AFE64F149C39E000230BA4 /* satyagraha@2x.png */,
+				27AFE650149C39E000230BA4 /* secularism.png */,
+				27AFE651149C39E000230BA4 /* secularism@2x.png */,
+				27AFE652149C39E000230BA4 /* socialfreedom.png */,
+				27AFE653149C39E000230BA4 /* socialfreedom@2x.png */,
+				27AFE654149C39E000230BA4 /* spirituality.png */,
+				27AFE655149C39E000230BA4 /* spirituality@2x.png */,
+				27AFE656149C39E000230BA4 /* swarj.png */,
+				27AFE657149C39E000230BA4 /* swarj@2x.png */,
+				27AFE658149C39E000230BA4 /* un.png */,
+				27AFE659149C39E000230BA4 /* un@2x.png */,
+				27AFE65A149C39E000230BA4 /* velvet.png */,
+				27AFE65B149C39E000230BA4 /* velvet@2x.png */,
+				8D1107310486CEB800E47090 /* GandhiApp™-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* GandhiApp™ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GandhiApp™" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GandhiApp™";
+			productName = GandhiApp;
+			productReference = 1D6058910D05DD3D006BFB54 /* GandhiApp™.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GandhiApp™" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* GandhiApp™ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				2751D475148AEC1C00EC4AD0 /* SearchViewController.xib in Resources */,
+				271418AC149BA1910088DD9F /* AhimsaViewController.xib in Resources */,
+				271418B1149BBF1D0088DD9F /* SatyagrahaViewController.xib in Resources */,
+				271418B6149BBF730088DD9F /* SwarjViewController.xib in Resources */,
+				271418BB149BBF9A0088DD9F /* LifeViewController.xib in Resources */,
+				271418D8149BC5B50088DD9F /* LeadersViewController.xib in Resources */,
+				271418DD149BC5D10088DD9F /* MovementsViewController.xib in Resources */,
+				271418EE149BDF750088DD9F /* FoundationsViewController.xib in Resources */,
+				271D5D8D149C023000DD7E98 /* PhilosophiesViewController.xib in Resources */,
+				27AFE65C149C39E000230BA4 /* ahimsa.png in Resources */,
+				27AFE65D149C39E000230BA4 /* ahimsa@2x.png in Resources */,
+				27AFE65E149C39E000230BA4 /* aquino.png in Resources */,
+				27AFE65F149C39E000230BA4 /* aquino@2x.png in Resources */,
+				27AFE660149C39E000230BA4 /* arab.png in Resources */,
+				27AFE661149C39E000230BA4 /* arab@2x.png in Resources */,
+				27AFE662149C39E000230BA4 /* articles.png in Resources */,
+				27AFE663149C39E000230BA4 /* articles@2x.png in Resources */,
+				27AFE664149C39E000230BA4 /* biographies.png in Resources */,
+				27AFE665149C39E000230BA4 /* biographies@2x.png in Resources */,
+				27AFE666149C39E000230BA4 /* civillaw.png in Resources */,
+				27AFE667149C39E000230BA4 /* civillaw@2x.png in Resources */,
+				27AFE668149C39E000230BA4 /* Default.png in Resources */,
+				27AFE669149C39E000230BA4 /* Default@2x.png in Resources */,
+				27AFE66A149C39E000230BA4 /* Default~ipad.png in Resources */,
+				27AFE66B149C39E000230BA4 /* democracy.png in Resources */,
+				27AFE66C149C39E000230BA4 /* democracy@2x.png in Resources */,
+				27AFE66D149C39E000230BA4 /* documentaries.png in Resources */,
+				27AFE66E149C39E000230BA4 /* documentaries@2x.png in Resources */,
+				27AFE66F149C39E000230BA4 /* economicfreedom.png in Resources */,
+				27AFE670149C39E000230BA4 /* economicfreedom@2x.png in Resources */,
+				27AFE671149C39E000230BA4 /* foundation.png in Resources */,
+				27AFE672149C39E000230BA4 /* foundation@2x.png in Resources */,
+				27AFE673149C39E000230BA4 /* gandhi.png in Resources */,
+				27AFE674149C39E000230BA4 /* gandhi@2x.png in Resources */,
+				27AFE675149C39E000230BA4 /* god.png in Resources */,
+				27AFE676149C39E000230BA4 /* god@2x.png in Resources */,
+				27AFE677149C39E000230BA4 /* Icon-doc.png in Resources */,
+				27AFE678149C39E000230BA4 /* Icon-doc@2x.png in Resources */,
+				27AFE679149C39E000230BA4 /* Icon-doc~ipad.png in Resources */,
+				27AFE67A149C39E000230BA4 /* Icon-doc320~ipad.png in Resources */,
+				27AFE67B149C39E000230BA4 /* Icon-settings.png in Resources */,
+				27AFE67C149C39E000230BA4 /* Icon-settings@2x.png in Resources */,
+				27AFE67D149C39E000230BA4 /* Icon-spot~ipad.png in Resources */,
+				27AFE67E149C39E000230BA4 /* Icon.png in Resources */,
+				27AFE67F149C39E000230BA4 /* Icon@2x.png in Resources */,
+				27AFE680149C39E000230BA4 /* Icon~ipad.png in Resources */,
+				27AFE681149C39E000230BA4 /* indiaconstitution.png in Resources */,
+				27AFE682149C39E000230BA4 /* indiaconstitution@2x.png in Resources */,
+				27AFE683149C39E000230BA4 /* iTunesArtwork.png in Resources */,
+				27AFE684149C39E000230BA4 /* leadership.png in Resources */,
+				27AFE685149C39E000230BA4 /* leadership@2x.png in Resources */,
+				27AFE686149C39E000230BA4 /* lech.png in Resources */,
+				27AFE687149C39E000230BA4 /* lech@2x.png in Resources */,
+				27AFE688149C39E000230BA4 /* life.png in Resources */,
+				27AFE689149C39E000230BA4 /* life@2x.png in Resources */,
+				27AFE68A149C39E000230BA4 /* mandela.png in Resources */,
+				27AFE68B149C39E000230BA4 /* mandela@2x.png in Resources */,
+				27AFE68C149C39E000230BA4 /* mlk.png in Resources */,
+				27AFE68D149C39E000230BA4 /* mlk@2x.png in Resources */,
+				27AFE68E149C39E000230BA4 /* movement.png in Resources */,
+				27AFE68F149C39E000230BA4 /* movement@2x.png in Resources */,
+				27AFE690149C39E000230BA4 /* movies.png in Resources */,
+				27AFE691149C39E000230BA4 /* movies@2x.png in Resources */,
+				27AFE692149C39E000230BA4 /* multiculturalism.png in Resources */,
+				27AFE693149C39E000230BA4 /* multiculturalism@2x.png in Resources */,
+				27AFE694149C39E000230BA4 /* nonviolence.png in Resources */,
+				27AFE695149C39E000230BA4 /* nonviolence@2x.png in Resources */,
+				27AFE696149C39E000230BA4 /* philosophies.png in Resources */,
+				27AFE697149C39E000230BA4 /* philosophies@2x.png in Resources */,
+				27AFE698149C39E000230BA4 /* politicalfreedom.png in Resources */,
+				27AFE699149C39E000230BA4 /* politicalfreedom@2x.png in Resources */,
+				27AFE69A149C39E000230BA4 /* pop.png in Resources */,
+				27AFE69B149C39E000230BA4 /* pop@2x.png in Resources */,
+				27AFE69C149C39E000230BA4 /* quit.png in Resources */,
+				27AFE69D149C39E000230BA4 /* quit@2x.png in Resources */,
+				27AFE69E149C39E000230BA4 /* religion.png in Resources */,
+				27AFE69F149C39E000230BA4 /* religion@2x.png in Resources */,
+				27AFE6A0149C39E000230BA4 /* Satyagraha.png in Resources */,
+				27AFE6A1149C39E000230BA4 /* satyagraha@2x.png in Resources */,
+				27AFE6A2149C39E000230BA4 /* secularism.png in Resources */,
+				27AFE6A3149C39E000230BA4 /* secularism@2x.png in Resources */,
+				27AFE6A4149C39E000230BA4 /* socialfreedom.png in Resources */,
+				27AFE6A5149C39E000230BA4 /* socialfreedom@2x.png in Resources */,
+				27AFE6A6149C39E000230BA4 /* spirituality.png in Resources */,
+				27AFE6A7149C39E000230BA4 /* spirituality@2x.png in Resources */,
+				27AFE6A8149C39E000230BA4 /* swarj.png in Resources */,
+				27AFE6A9149C39E000230BA4 /* swarj@2x.png in Resources */,
+				27AFE6AA149C39E000230BA4 /* un.png in Resources */,
+				27AFE6AB149C39E000230BA4 /* un@2x.png in Resources */,
+				27AFE6AC149C39E000230BA4 /* velvet.png in Resources */,
+				27AFE6AD149C39E000230BA4 /* velvet@2x.png in Resources */,
+				27AFE6BC149CFC6800230BA4 /* occupy.png in Resources */,
+				27AFE6BD149CFC6800230BA4 /* occupy@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GandhiAppAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				2751D474148AEC1C00EC4AD0 /* SearchViewController.m in Sources */,
+				271418AB149BA1910088DD9F /* AhimsaViewController.m in Sources */,
+				271418B0149BBF1D0088DD9F /* SatyagrahaViewController.m in Sources */,
+				271418B5149BBF730088DD9F /* SwarjViewController.m in Sources */,
+				271418BA149BBF9A0088DD9F /* LifeViewController.m in Sources */,
+				271418D7149BC5B50088DD9F /* LeadersViewController.m in Sources */,
+				271418DC149BC5D10088DD9F /* MovementsViewController.m in Sources */,
+				271418ED149BDF750088DD9F /* FoundationsViewController.m in Sources */,
+				271D5D8C149C023000DD7E98 /* PhilosophiesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GandhiApp™_Prefix.pch";
+				INFOPLIST_FILE = "GandhiApp™-Info.plist";
+				PRODUCT_NAME = "GandhiApp™";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GandhiApp™_Prefix.pch";
+				INFOPLIST_FILE = "GandhiApp™-Info.plist";
+				PRODUCT_NAME = "GandhiApp™";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GandhiApp™" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GandhiApp™" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
