@@ -18,7 +18,7 @@
                            @"movies.png",@"pic",@"https://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+in+movies+and+tv",@"url", nil]];
     [popCulture addObject:[[NSMutableDictionary alloc]
                            initWithObjectsAndKeys:@"Digital Media",@"name",
-                           @"digital.png",@"pic",@"https://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+in+digital+media",@"url", nil]];
+                           @"digital.png",@"pic",@"https://www.google.com/search?sourceid=chrome&ie=UTF-8&q=mahatma+gandhi+in+digital+media",@"url", nil]];
     [popCulture addObject:[[NSMutableDictionary alloc]
                            initWithObjectsAndKeys:@"Music",@"name",
                            @"music.png",@"pic",@"https://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+in+music",@"url", nil]];
