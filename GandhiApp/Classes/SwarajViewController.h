@@ -1,5 +1,5 @@
 //
-//  SwarjViewController.h
+//  SwarajViewController.h
 //  GandhiApp
 //
 //  Created by Kyle on 12/16/11.
@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SwarjViewController : UITableViewController {
-    NSMutableArray *swarj;
+@interface SwarajViewController : UITableViewController {
+    NSMutableArray *swaraj;
 }
 
 -(void)createTable;

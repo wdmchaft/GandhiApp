@@ -10,7 +10,7 @@
 #import "AhimsaViewController.h"
 #import "LifeViewController.h"
 #import "SatyagrahaViewController.h"
-#import "SwarjViewController.h"
+#import "SwarajViewController.h"
 
 @implementation RootViewController
 
@@ -25,9 +25,9 @@
                            @"(Civil Disobedience)",@"subtitle",
                            @"satyagraha.png",@"pic", nil]];
     [categories addObject:[[NSMutableDictionary alloc]
-                           initWithObjectsAndKeys:@"Swarj",@"name",
+                           initWithObjectsAndKeys:@"Swaraj",@"name",
                            @"(Self-Rule)",@"subtitle",
-                           @"swarj.png",@"pic", nil]];
+                           @"swaraj.png",@"pic", nil]];
     [categories addObject:[[NSMutableDictionary alloc]
                            initWithObjectsAndKeys:@"Gandhi's Life",@"name",
                            @"(About Gandhi)",@"subtitle",
@@ -123,7 +123,7 @@
     headerLabel.shadowColor = [UIColor blackColor];
     headerLabel.shadowOffset = CGSizeMake(1, 1);
     headerLabel.backgroundColor = [UIColor clearColor];
-    headerLabel.text = @"\"You are not followers but fellow students, fellow pilgrims, fellow seekers, fellow workers.\"";
+    headerLabel.text = @"\"A small body of determined spirits fired by an unquenchable faith in their mission can alter the course of history.\"";
     headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 100.0);
     headerLabel.numberOfLines = 0;
     
@@ -133,6 +133,22 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 100.0;
+}
+
+-(UIView*)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    UIView *customView = [[UIView alloc]initWithFrame:CGRectMake(10, 0, 300, 50)];
+    UILabel *footerLabel = [[UILabel alloc]initWithFrame:CGRectZero];
+    footerLabel.textAlignment = UITextAlignmentCenter;
+    footerLabel.textColor = [UIColor whiteColor];
+    footerLabel.shadowColor = [UIColor blackColor];
+    footerLabel.shadowOffset = CGSizeMake(1, 1);
+    footerLabel.backgroundColor = [UIColor clearColor];
+    footerLabel.text = @"© The Khanna Group, LLC";
+    footerLabel.frame = CGRectMake(10, 0, 300, 50);
+    footerLabel.numberOfLines = 0;
+    
+    [customView addSubview:footerLabel];
+    return customView;
 }
 
 /*
@@ -195,13 +211,13 @@
         satyagrahaViewController.title = [[categories objectAtIndex:indexPath.row]objectForKey:@"name"];
         [self.navigationController pushViewController:satyagrahaViewController animated:YES];
         [satyagrahaViewController release];
-    }else if([selectedCell.textLabel.text isEqualToString:@"Swarj"]){
-        SwarjViewController *swarjViewController = [[SwarjViewController alloc]
-                                                    initWithNibName:@"SwarjViewController"
+    }else if([selectedCell.textLabel.text isEqualToString:@"Swaraj"]){
+        SwarajViewController *swarajViewController = [[SwarajViewController alloc]
+                                                    initWithNibName:@"SwarajViewController"
                                                     bundle:nil];
-        swarjViewController.title = [[categories objectAtIndex:indexPath.row]objectForKey:@"name"];
-        [self.navigationController pushViewController:swarjViewController animated:YES];
-        [swarjViewController release];
+        swarajViewController.title = [[categories objectAtIndex:indexPath.row]objectForKey:@"name"];
+        [self.navigationController pushViewController:swarajViewController animated:YES];
+        [swarajViewController release];
     }else{
         LifeViewController *lifeViewController = [[LifeViewController alloc]
                                                   initWithNibName:@"LifeViewController"

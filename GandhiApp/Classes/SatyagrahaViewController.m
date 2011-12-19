@@ -150,6 +150,22 @@
     return 160.0;
 }
 
+-(UIView*)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    UIView *customView = [[UIView alloc]initWithFrame:CGRectMake(10, 0, 300, 50)];
+    UILabel *footerLabel = [[UILabel alloc]initWithFrame:CGRectZero];
+    footerLabel.textAlignment = UITextAlignmentCenter;
+    footerLabel.textColor = [UIColor whiteColor];
+    footerLabel.shadowColor = [UIColor blackColor];
+    footerLabel.shadowOffset = CGSizeMake(1, 1);
+    footerLabel.backgroundColor = [UIColor clearColor];
+    footerLabel.text = @"© The Khanna Group, LLC";
+    footerLabel.frame = CGRectMake(10, 0, 300, 50);
+    footerLabel.numberOfLines = 0;
+    
+    [customView addSubview:footerLabel];
+    return customView;
+}
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

@@ -1,26 +1,30 @@
 //
-//  SwarjViewController.m
-//  GandhiApp
+//  PopCultureViewController.m
+//  GandhiApp™
 //
-//  Created by Kyle on 12/16/11.
+//  Created by Kyle on 12/19/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "SwarjViewController.h"
-#import "FoundationsViewController.h"
-#import "PhilosophiesViewController.h"
+#import "PopCultureViewController.h"
+#import "SearchViewController.h"
 
-
-@implementation SwarjViewController
+@implementation PopCultureViewController
 
 -(void)createTable{
-    swarj = [[NSMutableArray alloc]init];
-    [swarj addObject:[[NSMutableDictionary alloc]
-                      initWithObjectsAndKeys:@"Foundations",@"name",
-                      @"foundation.png",@"pic", nil]];
-    [swarj addObject:[[NSMutableDictionary alloc]
-                      initWithObjectsAndKeys:@"Philosophies",@"name",
-                      @"philosophies.png",@"pic",nil]];
+    popCulture = [[NSMutableArray alloc]init];
+    [popCulture addObject:[[NSMutableDictionary alloc]
+                           initWithObjectsAndKeys:@"Movies and TV",@"name",
+                           @"movies.png",@"pic",@"https://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+in+movies+and+tv",@"url", nil]];
+    [popCulture addObject:[[NSMutableDictionary alloc]
+                           initWithObjectsAndKeys:@"Digital Media",@"name",
+                           @"digital.png",@"pic",@"https://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+in+digital+media",@"url", nil]];
+    [popCulture addObject:[[NSMutableDictionary alloc]
+                           initWithObjectsAndKeys:@"Music",@"name",
+                           @"music.png",@"pic",@"https://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+in+music",@"url", nil]];
+    [popCulture addObject:[[NSMutableDictionary alloc]
+                           initWithObjectsAndKeys:@"Books",@"name",
+                           @"books.png",@"pic",@"https://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+books",@"url", nil]];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -34,7 +38,7 @@
 
 - (void)dealloc
 {
-    [swarj release];
+    [popCulture release];
     [super dealloc];
 }
 
@@ -50,7 +54,6 @@
 
 - (void)viewDidLoad
 {
-    self.navigationController.navigationBar.tintColor = [UIColor darkGrayColor];
     [self createTable];
     [super viewDidLoad];
 
@@ -63,7 +66,7 @@
 
 - (void)viewDidUnload
 {
-    swarj = nil;
+    popCulture = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -106,7 +109,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [swarj count];
+    return [popCulture count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -118,36 +121,33 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    [[cell textLabel]setText:[[swarj objectAtIndex:indexPath.row]objectForKey:@"name"]];
+    [[cell textLabel]setText:[[popCulture objectAtIndex:indexPath.row]objectForKey:@"name"]];
     cell.textLabel.shadowColor = [UIColor lightGrayColor];
     cell.textLabel.shadowOffset = CGSizeMake(1, 1);
+	cell.textLabel.numberOfLines = 0;
     
-    [[cell imageView]setImage:[UIImage imageNamed:[[swarj objectAtIndex:indexPath.row]objectForKey:@"pic"]]];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	[[cell imageView]setImage:[UIImage imageNamed:[[popCulture objectAtIndex:indexPath.row]objectForKey:@"pic"]]];
+	cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     cell.selectionStyle = UITableViewCellSelectionStyleGray;
-
     
     return cell;
 }
 
--(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-    UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 120.0)];
-    UILabel *headerLabel = [[UILabel alloc]initWithFrame:CGRectZero];
-    headerLabel.textAlignment = UITextAlignmentCenter;
-    headerLabel.textColor = [UIColor whiteColor];
-    headerLabel.shadowColor = [UIColor blackColor];
-    headerLabel.shadowOffset = CGSizeMake(1, 1);
-    headerLabel.backgroundColor = [UIColor clearColor];
-    headerLabel.text = @"\"The real goal of the freedom struggle was not only to secure political independence, but rather to gain true swaraj -- liberation and self-rule.\"";
-    headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 120.0);
-    headerLabel.numberOfLines = 0;
-    
-    [customView addSubview:headerLabel];
-    return customView;
-}
 
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 120.0;
+-(UIView*)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    UIView *customView = [[UIView alloc]initWithFrame:CGRectMake(10, 0, 300, 50)];
+    UILabel *footerLabel = [[UILabel alloc]initWithFrame:CGRectZero];
+    footerLabel.textAlignment = UITextAlignmentCenter;
+    footerLabel.textColor = [UIColor whiteColor];
+    footerLabel.shadowColor = [UIColor blackColor];
+    footerLabel.shadowOffset = CGSizeMake(1, 1);
+    footerLabel.backgroundColor = [UIColor clearColor];
+    footerLabel.text = @"© The Khanna Group, LLC";
+    footerLabel.frame = CGRectMake(10, 0, 300, 50);
+    footerLabel.numberOfLines = 0;
+    
+    [customView addSubview:footerLabel];
+    return customView;
 }
 
 /*
@@ -193,22 +193,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *selectedCell = [tableView cellForRowAtIndexPath:indexPath];
-    if([selectedCell.textLabel.text isEqualToString:@"Foundations"]){
-        FoundationsViewController *foundationsViewController = [[FoundationsViewController alloc]
-                                                        initWithNibName:@"FoundationsViewController"
-                                                        bundle:nil];
-        foundationsViewController.title = [[swarj objectAtIndex:indexPath.row]objectForKey:@"name"];
-        [self.navigationController pushViewController:foundationsViewController animated:YES];
-        [foundationsViewController release];
-    }else{
-        PhilosophiesViewController *philosophiesViewController = [[PhilosophiesViewController alloc]
-                                                            initWithNibName:@"PhilosophiesViewController"
-                                                            bundle:nil];
-        philosophiesViewController.title = [[swarj objectAtIndex:indexPath.row]objectForKey:@"name"];
-        [self.navigationController pushViewController:philosophiesViewController animated:YES];
-        [philosophiesViewController release];
-    }
+    SearchViewController *searchViewController=[[SearchViewController alloc]
+												initWithNibName:@"SearchViewController"
+												bundle:nil];
+    searchViewController.searchURL = [[NSURL alloc] initWithString:[[popCulture objectAtIndex:indexPath.row] objectForKey:@"url"]];
+	searchViewController.title= [[popCulture objectAtIndex:indexPath.row]objectForKey:@"name"];
+	[self.navigationController pushViewController:searchViewController animated:YES];
+	[searchViewController release];
 }
 
 @end

@@ -1,30 +1,26 @@
 //
-//  MovementsViewController.m
+//  SwarajViewController.m
 //  GandhiApp
 //
 //  Created by Kyle on 12/16/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "MovementsViewController.h"
-#import "SearchViewController.h"
+#import "SwarajViewController.h"
+#import "FoundationsViewController.h"
+#import "PhilosophiesViewController.h"
 
-@implementation MovementsViewController
+
+@implementation SwarajViewController
 
 -(void)createTable{
-    movements = [[NSMutableArray alloc]init];
-    [movements addObject:[[NSMutableDictionary alloc]
-                          initWithObjectsAndKeys:@"Quit India",@"name",
-                          @"quit.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+and+quit+india+movement",@"url", nil]];
-    [movements addObject:[[NSMutableDictionary alloc]
-                          initWithObjectsAndKeys:@"Velvet Revolution",@"name",
-                          @"velvet.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+and+velvet+revolution",@"url", nil]];
-    [movements addObject:[[NSMutableDictionary alloc]
-                          initWithObjectsAndKeys:@"Arab Spring",@"name",
-                          @"arab.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+and+arab+spring",@"url", nil]];
-    [movements addObject:[[NSMutableDictionary alloc]
-                          initWithObjectsAndKeys:@"Occupy Wall St. and Tea Party",@"name",
-                          @"occupy.png",@"pic",@"http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=gandhi+and+occupy+wall+street",@"url", nil]];
+    swaraj = [[NSMutableArray alloc]init];
+    [swaraj addObject:[[NSMutableDictionary alloc]
+                      initWithObjectsAndKeys:@"Foundations",@"name",
+                      @"foundation.png",@"pic", nil]];
+    [swaraj addObject:[[NSMutableDictionary alloc]
+                      initWithObjectsAndKeys:@"Philosophies",@"name",
+                      @"philosophies.png",@"pic",nil]];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -38,7 +34,7 @@
 
 - (void)dealloc
 {
-    [movements release];
+    [swaraj release];
     [super dealloc];
 }
 
@@ -54,6 +50,7 @@
 
 - (void)viewDidLoad
 {
+    self.navigationController.navigationBar.tintColor = [UIColor darkGrayColor];
     [self createTable];
     [super viewDidLoad];
 
@@ -66,7 +63,7 @@
 
 - (void)viewDidUnload
 {
-    movements = nil;
+    swaraj = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -109,7 +106,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [movements count];
+    return [swaraj count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -121,17 +118,36 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    [[cell textLabel]setText:[[movements objectAtIndex:indexPath.row]objectForKey:@"name"]];
+    [[cell textLabel]setText:[[swaraj objectAtIndex:indexPath.row]objectForKey:@"name"]];
     cell.textLabel.shadowColor = [UIColor lightGrayColor];
     cell.textLabel.shadowOffset = CGSizeMake(1, 1);
-    cell.textLabel.numberOfLines = 0;
-	
-	[[cell imageView]setImage:[UIImage imageNamed:[[movements objectAtIndex:indexPath.row]objectForKey:@"pic"]]];
-	cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+    
+    [[cell imageView]setImage:[UIImage imageNamed:[[swaraj objectAtIndex:indexPath.row]objectForKey:@"pic"]]];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.selectionStyle = UITableViewCellSelectionStyleGray;
 
     
     return cell;
+}
+
+-(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 120.0)];
+    UILabel *headerLabel = [[UILabel alloc]initWithFrame:CGRectZero];
+    headerLabel.textAlignment = UITextAlignmentCenter;
+    headerLabel.textColor = [UIColor whiteColor];
+    headerLabel.shadowColor = [UIColor blackColor];
+    headerLabel.shadowOffset = CGSizeMake(1, 1);
+    headerLabel.backgroundColor = [UIColor clearColor];
+    headerLabel.text = @"\"The real goal of the freedom struggle was not only to secure political independence, but rather to gain true swaraj -- liberation and self-rule.\"";
+    headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 120.0);
+    headerLabel.numberOfLines = 0;
+    
+    [customView addSubview:headerLabel];
+    return customView;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 120.0;
 }
 
 -(UIView*)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
@@ -193,14 +209,22 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    SearchViewController *searchViewController=[[SearchViewController alloc]
-												initWithNibName:@"SearchViewController"
-												bundle:nil];
-    searchViewController.searchURL = [[NSURL alloc] initWithString:[[movements objectAtIndex:indexPath.row] objectForKey:@"url"]];
-	searchViewController.title= [[movements objectAtIndex:indexPath.row]objectForKey:@"name"];
-	[self.navigationController pushViewController:searchViewController animated:YES];
-	[searchViewController release];
-
+    UITableViewCell *selectedCell = [tableView cellForRowAtIndexPath:indexPath];
+    if([selectedCell.textLabel.text isEqualToString:@"Foundations"]){
+        FoundationsViewController *foundationsViewController = [[FoundationsViewController alloc]
+                                                        initWithNibName:@"FoundationsViewController"
+                                                        bundle:nil];
+        foundationsViewController.title = [[swaraj objectAtIndex:indexPath.row]objectForKey:@"name"];
+        [self.navigationController pushViewController:foundationsViewController animated:YES];
+        [foundationsViewController release];
+    }else{
+        PhilosophiesViewController *philosophiesViewController = [[PhilosophiesViewController alloc]
+                                                            initWithNibName:@"PhilosophiesViewController"
+                                                            bundle:nil];
+        philosophiesViewController.title = [[swaraj objectAtIndex:indexPath.row]objectForKey:@"name"];
+        [self.navigationController pushViewController:philosophiesViewController animated:YES];
+        [philosophiesViewController release];
+    }
 }
 
 @end
